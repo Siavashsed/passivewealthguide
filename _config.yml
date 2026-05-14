@@ -1,8 +1,8 @@
 title: Passive Wealth Guide
 description: Real strategies for passive income and investing
 theme: minima
-baseurl: ""
-url: "https://passivewealthguide.io"
+baseurl: "/passivewealthguide"
+url: "https://siavashsed.github.io"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 show_excerpts: true
