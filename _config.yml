@@ -1,0 +1,10 @@
+title: Passive Wealth Guide
+description: Real strategies for passive income and investing
+theme: minima
+baseurl: ""
+url: "https://passivewealthguide.io"
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+minima:
+  skin: dark
