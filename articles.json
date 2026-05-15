@@ -62,5 +62,19 @@
       "fdic.gov",
       "bauerfinancial.com"
     ]
+  },
+  {
+    "title": "Peer-to-Peer Lending: What the Platforms Don't Tell You Before You Sign Up",
+    "slug": "peer-to-peer-lending-hidden-risks",
+    "meta_description": "A retired CFP reveals the hidden risks of peer-to-peer lending that platforms bury in fine print \u2014 and how to protect yourself.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
+    "author": "Sarah Mills",
+    "image": "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "altfi.com",
+      "sec.gov",
+      "fca.org.uk"
+    ]
   }
 ]
