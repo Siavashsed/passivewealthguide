@@ -36,5 +36,18 @@
     "outbound_links": [
       "hartfordfunds.com"
     ]
+  },
+  {
+    "title": "Why Index Funds Beat 90% of Active Fund Managers (And What That Means for Your Money)",
+    "slug": "why-index-funds-beat-active-managers",
+    "meta_description": "Index funds consistently outperform most active managers. CFP Sarah Mills explains why \u2014 with data, real experience, and one actionable step.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
+    "author": "Sarah Mills",
+    "image": "https://images.pexels.com/photos/7947709/pexels-photo-7947709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "spiva.spglobal.com",
+      "investor.vanguard.com"
+    ]
   }
 ]
