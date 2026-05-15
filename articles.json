@@ -11,5 +11,18 @@
       "hartfordfunds.com",
       "dripinvesting.org"
     ]
+  },
+  {
+    "title": "REITs vs Rental Property: A Real Numbers Comparison (From Someone Who's Done Both)",
+    "slug": "reits-vs-rental-property-real-numbers",
+    "meta_description": "Sarah Mills compares REITs vs rental property with real numbers, honest risks, and a clear verdict from a CFP who retired at 41.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
+    "author": "Sarah Mills",
+    "image": "https://images.pexels.com/photos/27920274/pexels-photo-27920274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nareit.com",
+      "investor.gov"
+    ]
   }
 ]
