@@ -24,5 +24,17 @@
       "nareit.com",
       "investor.gov"
     ]
+  },
+  {
+    "title": "How to Build a $1,000/Month Passive Income Stream From Scratch (A Real Plan, Not a Fantasy)",
+    "slug": "1000-month-passive-income-scratch",
+    "meta_description": "Sarah Mills retired at 41 through passive income. Here's her honest, step-by-step plan for building $1,000/month from scratch \u2014 no fluff, no hype.",
+    "date": "May 15, 2026",
+    "date_iso": "2026-05-15",
+    "author": "Sarah Mills",
+    "image": "https://images.pexels.com/photos/12920750/pexels-photo-12920750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hartfordfunds.com"
+    ]
   }
 ]
