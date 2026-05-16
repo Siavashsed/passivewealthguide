@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c1343",
+    "name": "Marcus T.",
+    "initials": "MT",
+    "color": "#ec4899",
+    "date_iso": "2026-05-16",
+    "date_display": "May 16, 2026",
+    "text": "Great breakdown of the rate comparison tools. I've been sitting on 4.5% for 6 months now and was wondering if I should lock in higher before they drop. This actually convinced me to move some funds today.",
+    "likes": 8
+  },
+  {
+    "id": "c2241",
+    "name": "Sarah K.",
+    "initials": "SK",
+    "color": "#ef4444",
+    "date_iso": "2026-05-18",
+    "date_display": "May 18, 2026",
+    "text": "One thing you didn't mention: the FDIC insurance limits. I have three HYSA accounts across different banks specifically to stay under the $250k cap. Anyone else doing this?",
+    "likes": 11
+  },
+  {
+    "id": "c3723",
+    "name": "David R.",
+    "initials": "DR",
+    "color": "#3ecf8e",
+    "date_iso": "2026-05-20",
+    "date_display": "May 20, 2026",
+    "text": "The title is a bit fear-mongering about rates dropping, but the comparison matrix at the end is solid. I'll be using it to audit my current setup.",
+    "likes": 5
+  },
+  {
+    "id": "c4641",
+    "name": "Jennifer L.",
+    "initials": "JL",
+    "color": "#ec4899",
+    "date_iso": "2026-05-24",
+    "date_display": "May 24, 2026",
+    "text": "I switched to Marcus last month at 5.02% after reading similar articles. No regrets so far, though the lack of a mobile app is kind of annoying.",
+    "likes": 9
+  },
+  {
+    "id": "c5197",
+    "name": "Robert H.",
+    "initials": "RH",
+    "color": "#f97316",
+    "date_iso": "2026-05-29",
+    "date_display": "May 29, 2026",
+    "text": "Anyone else think these rates are still artificially high? I'm not convinced we won't see sub-3% in 2026. Keeping my emergency fund liquid for now.",
+    "likes": 7
+  }
+]
