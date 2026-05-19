@@ -1,344 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>About Siavash Sadighi - Passive Wealth Guide</title>
-<meta name="description" content="Realistic passive income guidance from a certified financial planner.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About - Passive Wealth Guide</title>
+<meta name="description" content="About Passive Wealth Guide: Realistic passive income guidance from a certified financial planner.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{  --bg:#faf8f2;--bg2:#f3f0e8;--sur:#ece8dc;
-  --pri:#1a4731;--pri2:#15803d;
-  --txt:#1c1a14;--mut:#7a7060;--brd:#d8d0bc;
-  --fh:Georgia,serif;--fb:system-ui,sans-serif;--fm:monospace;--fh:Lora,Georgia,serif;}
-body{font-family:var(--fb);background:var(--bg);color:var(--txt);font-size:15px;line-height:1.8}
-a{color:var(--pri);text-decoration:none}a:hover{text-decoration:underline}
-.ln{display:flex;align-items:center;justify-content:space-between;padding:18px 52px;border-bottom:1px solid var(--brd);background:var(--bg);position:sticky;top:0;z-index:99}
-.ln-brand{font-family:var(--fh);font-size:22px;font-weight:700;color:var(--txt);text-decoration:none}
-.ln-brand em{color:var(--pri);font-style:normal}
-.ln-nav{display:flex;gap:28px}.ln-nav a{font-size:13px;color:var(--mut);font-weight:500;text-decoration:none}.ln-nav a:hover{color:var(--txt)}
-/* hero */
-.lah{background:var(--bg2);border-bottom:2px solid var(--brd);padding:52px 52px 44px}
-.lah-top{display:flex;align-items:center;gap:32px;margin-bottom:28px}
-.lah-avi{width:80px;height:80px;border-radius:50%;background:var(--pri);display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-size:26px;font-weight:700;color:#fff;flex-shrink:0;border:3px solid var(--bg)}
-.lah h1{font-family:var(--fh);font-size:clamp(22px,3vw,36px);font-weight:700;margin-bottom:4px;color:var(--txt)}
-.lah-role{font-size:14px;color:var(--pri);font-weight:600}
-.lah-cat{font-size:12px;color:var(--mut);margin-top:4px}
-.lah-stats{display:flex;gap:14px;flex-wrap:wrap}
-.lah-stat{background:var(--bg);border:1px solid var(--brd);border-radius:8px;padding:12px 18px;text-align:center}
-.lah-stat-num{font-family:var(--fh);font-size:20px;font-weight:700;color:var(--pri)}
-.lah-stat-lbl{font-size:10px;color:var(--mut);margin-top:2px;text-transform:uppercase;letter-spacing:1px}
-/* layout */
-.la-layout{display:grid;grid-template-columns:1fr 300px;gap:48px;max-width:1160px;margin:0 auto;padding:52px 52px}
-.la-sec{margin-bottom:44px}
-.la-sec-hd{font-family:var(--fh);font-size:20px;font-weight:700;color:var(--txt);margin-bottom:16px;padding-bottom:12px;border-bottom:2px solid var(--pri)}
-.la-p{color:var(--mut);line-height:1.9;margin-bottom:16px}
-/* quote */
-.la-quote{border-left:3px solid var(--pri);padding:12px 20px;margin:4px 0 24px;background:var(--bg2);border-radius:0 6px 6px 0}
-.la-quote p{font-family:var(--fh);font-size:16px;color:var(--txt);line-height:1.7;font-style:italic}
-/* invest grid */
-.la-inv{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.la-inv-card{border:1px solid var(--brd);border-radius:8px;padding:14px 16px;display:flex;gap:10px;align-items:flex-start;transition:border-color .2s}.la-inv-card:hover{border-color:var(--pri)}
-.la-inv-icon{color:var(--pri);flex-shrink:0;margin-top:2px}
-.la-inv-head{font-size:13px;font-weight:700;color:var(--txt);margin-bottom:3px}
-.la-inv-body{font-size:12px;color:var(--mut);line-height:1.65}
-/* journey timeline */
-.laj{padding:44px 52px;border-bottom:1px solid var(--brd);background:var(--bg2)}
-.laj-inner{max-width:1160px;margin:0 auto}
-.laj-hd{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:3px;color:var(--mut);margin-bottom:28px}
-.laj-items{display:grid;grid-template-columns:repeat(5,1fr);gap:0;position:relative}
-.laj-items::before{content:'';position:absolute;top:12px;left:0;right:0;height:2px;background:var(--brd);z-index:0}
-.laj-item{display:flex;flex-direction:column;gap:8px;padding-top:0;position:relative;z-index:1;padding-right:14px}
-.laj-dot{width:26px;height:26px;border-radius:50%;background:var(--pri);border:3px solid var(--bg2);flex-shrink:0}
-.laj-year{font-family:var(--fh);font-size:13px;font-weight:700;color:var(--pri);margin-top:4px}
-.laj-text{font-size:12px;color:var(--mut);line-height:1.65}
-/* philosophy banner */
-.la-philo{background:var(--pri);padding:40px 52px;text-align:center;border-top:1px solid rgba(0,0,0,.1)}
-.la-philo blockquote{font-family:var(--fh);font-size:clamp(16px,2.2vw,22px);font-style:italic;color:#fff;max-width:760px;margin:0 auto;line-height:1.6}
-.la-philo cite{display:block;margin-top:12px;font-size:11px;color:rgba(255,255,255,.7);font-style:normal;letter-spacing:1.5px;text-transform:uppercase}
-/* methodology */
-.la-steps{display:flex;flex-direction:column;gap:16px}
-.la-step{display:flex;gap:14px}
-.la-step-dot{width:28px;height:28px;border-radius:50%;background:var(--pri);color:#fff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
-.la-step-head{font-family:var(--fh);font-size:15px;font-weight:700;color:var(--txt);margin-bottom:4px}
-.la-step-body{font-size:13px;color:var(--mut);line-height:1.7}
-/* sidebar */
-.la-side{}
-.la-card{background:var(--bg2);border:1px solid var(--brd);border-radius:10px;padding:22px;margin-bottom:18px}
-.la-card-lbl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--pri);margin-bottom:12px}
-/* nl */
-.la-nl{background:var(--pri);border-radius:10px;padding:24px;margin-bottom:18px;color:#fff}
-.la-nl h3{font-family:var(--fh);font-size:18px;font-weight:700;margin-bottom:6px}
-.la-nl p{font-size:12px;opacity:.88;margin-bottom:14px}
-.la-nl-in{width:100%;border:none;border-radius:6px;padding:10px 12px;font-size:13px;margin-bottom:8px;outline:none;background:rgba(255,255,255,.95)}
-.la-nl-btn{width:100%;background:#1c1a14;color:#fff;border:none;border-radius:6px;padding:10px;font-size:13px;font-weight:700;cursor:pointer;transition:opacity .2s}.la-nl-btn:hover{opacity:.85}
-/* footer */
-.lfb{padding:24px 52px;border-top:1px solid var(--brd);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
-.lfb-copy{font-size:12px;color:var(--mut)}.lfb-links{display:flex;gap:20px}.lfb-links a{font-size:12px;color:var(--mut);text-decoration:none}.lfb-links a:hover{color:var(--pri)}
-@media(max-width:1024px){.la-layout{grid-template-columns:1fr}}
-@media(max-width:768px){.ln{padding:14px 16px}.lah{padding:32px 16px 28px}.lah-top{flex-direction:column;gap:16px}.la-layout{padding:32px 16px;gap:28px}.la-inv{grid-template-columns:1fr}.laj{padding:32px 16px}.laj-items{grid-template-columns:1fr 1fr;gap:24px}.laj-items::before{display:none}.la-philo{padding:32px 16px}.lfb{padding:20px 16px;flex-direction:column;text-align:center}}
+html{scroll-behavior:smooth}
+:root{
+  --bg:#faf8f2;
+  --bg2:#f3f0e8;
+  --surface:#ece8dc;
+  --primary:#1a4731;
+  --primary2:#15803d;
+  --primary3:#166534;
+  --gold:#b45309;
+  --gold2:#d97706;
+  --text:#1c1a14;
+  --muted:#7a7060;
+  --muted2:#9a8e80;
+  --border:#d8d0bc;
+  --border2:#e8e2d6;
+  --white:#fff;
+  --shadow:0 1px 4px rgba(28,26,20,.07),0 1px 2px rgba(28,26,20,.05);
+  --shadow-md:0 4px 18px rgba(28,26,20,.10);
+  --shadow-lg:0 8px 32px rgba(28,26,20,.12);
+  --shadow-xl:0 16px 48px rgba(28,26,20,.15);
+  --serif:'Playfair Display',Georgia,serif;
+  --body:'Lora',Georgia,serif;
+  --r:3px;
+}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.75;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+
+/* ── UTILITIES ── */
+.container{max-width:1180px;margin:0 auto;padding:0 24px}
+.section{padding:76px 0}
+.section-alt{background:var(--bg2)}
+.section-head{text-align:center;margin-bottom:54px}
+.kicker{font-family:var(--body);font-size:10px;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:2.5px;display:block;margin-bottom:12px;opacity:.8}
+.section-title{font-family:var(--serif);font-size:clamp(28px,4vw,42px);font-weight:800;color:var(--text);line-height:1.12;margin-bottom:14px;letter-spacing:-.4px}
+.section-sub{font-family:var(--body);font-size:15px;color:var(--muted);line-height:1.85;max-width:540px;margin:0 auto;font-style:italic}
+
+/* ── NAV ── */
+.nav{background:rgba(250,248,242,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200;transition:box-shadow .25s}
+.nav.scrolled{box-shadow:var(--shadow-md)}
+.nav-inner{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:center;height:68px;gap:0}
+.nav-logo{display:flex;align-items:center;gap:11px;margin-right:40px;flex-shrink:0}
+.nav-logo-mark{width:38px;height:38px;background:var(--primary);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(26,71,49,.3)}
+.nav-logo-mark span{font-family:var(--serif);font-size:13px;font-weight:700;color:#fff}
+.nav-logo-text{line-height:1.2}
+.nav-logo-name{font-family:var(--serif);font-size:15px;font-weight:700;color:var(--text)}
+.nav-logo-tag{font-family:var(--body);font-size:10px;font-weight:400;color:var(--muted);font-style:italic;letter-spacing:.3px}
+.nav-links{display:flex;gap:0;height:100%;flex:1}
+.nav-links a{font-family:var(--body);font-size:13px;font-weight:500;color:var(--muted);padding:0 15px;height:100%;display:flex;align-items:center;border-bottom:2px solid transparent;transition:all .2s;margin-bottom:-1px}
+.nav-links a:hover,.nav-links a.active{color:var(--primary);border-bottom-color:var(--primary)}
+.nav-right{display:flex;align-items:center;gap:12px;flex-shrink:0;margin-left:auto}
+.nav-cta{font-family:var(--body);font-size:12px;font-weight:600;color:var(--white);background:var(--primary);padding:9px 20px;border-radius:var(--r);transition:background .2s;letter-spacing:.2px;white-space:nowrap}
+.nav-cta:hover{background:var(--primary2)}
+.nav-burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
+.nav-burger span{width:22px;height:1.5px;background:var(--text);border-radius:1px;display:block;transition:all .25s}
+.nav-mobile{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--border);flex-direction:column;z-index:199;box-shadow:var(--shadow-md)}
+.nav-mobile.open{display:flex}
+.nav-mobile a{font-family:var(--body);font-size:14px;font-weight:500;color:var(--text);padding:15px 24px;border-bottom:1px solid var(--border)}
+.nav-mobile a:hover{color:var(--primary);background:var(--bg2)}
+@media(max-width:768px){.nav-links{display:none}.nav-cta{display:none}.nav-burger{display:flex}}
+
+/* ── HERO ── */
+.hero{background:var(--bg);border-bottom:1px solid var(--border);padding:88px 24px 80px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-60px;right:-60px;width:700px;height:700px;background:radial-gradient(ellipse at 80% 40%,rgba(26,71,49,.055) 0%,transparent 65%);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-80px;left:-40px;width:400px;height:400px;background:radial-gradient(circle,rgba(180,83,9,.035) 0%,transparent 65%);pointer-events:none}
+.hero-inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 420px;gap:80px;align-items:center}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--body);font-size:11px;font-weight:600;color:var(--primary);letter-spacing:2px;text-transform:uppercase;margin-bottom:24px}
+.hero-eyebrow-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.hero-h1{font-family:var(--serif);font-size:clamp(38px,5.5vw,66px);font-weight:800;line-height:1.04;color:var(--text);margin-bottom:22px;letter-spacing:-.6px}
+.hero-h1 em{font-style:italic;color:var(--primary)}
+.hero-lead{font-family:var(--body);font-size:17px;color:var(--muted);line-height:1.85;margin-bottom:36px;max-width:500px;font-style:italic}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px}
+.btn-primary{font-family:var(--body);font-size:14px;font-weight:600;color:var(--white);background:var(--primary);padding:15px 32px;border-radius:var(--r);transition:all .2s;display:inline-block;letter-spacing:.2px;box-shadow:0 4px 16px rgba(26,71,49,.22)}
+.btn-primary:hover{background:var(--primary2);transform:translateY(-1px);box-shadow:0 6px 20px rgba(26,71,49,.28)}
+.btn-ghost{font-family:var(--body);font-size:14px;font-weight:600;color:var(--primary);border:1.5px solid var(--border);padding:14px 28px;border-radius:var(--r);transition:all .2s;display:inline-block}
+.btn-ghost:hover{border-color:var(--primary);background:var(--bg2)}
+.hero-trust{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.hero-trust-item{display:flex;align-items:center;gap:7px;font-family:var(--body);font-size:12px;color:var(--muted);font-style:italic}
+.hero-trust-dot{width:3px;height:3px;border-radius:50%;background:var(--border);flex-shrink:0}
+
+/* Hero card */
+.hero-card{background:var(--white);border:1px solid var(--border);border-radius:4px;padding:30px;box-shadow:var(--shadow-xl);position:relative}
+.hero-card-top{height:3px;background:linear-gradient(90deg,var(--primary),var(--gold));border-radius:4px 4px 0 0;position:absolute;top:0;left:0;right:0}
+.hero-card-label{font-family:var(--body);font-size:10px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1.8px;margin-bottom:20px;display:flex;align-items:center;gap:8px}
+.hero-card-label::after{content:'';flex:1;height:1px;background:var(--border)}
+.income-streams{display:flex;flex-direction:column;gap:14px;margin-bottom:22px}
+.is-row{display:flex;align-items:center;gap:10px}
+.is-dot{width:8px;height:8px;border-radius:2px;flex-shrink:0}
+.is-label{font-family:var(--body);font-size:12px;color:var(--muted);width:96px;flex-shrink:0}
+.is-bar-wrap{flex:1;height:5px;background:var(--surface);border-radius:3px;overflow:hidden}
+.is-bar{height:100%;border-radius:3px;transition:width 1.5s cubic-bezier(.4,0,.2,1)}
+.is-val{font-family:var(--serif);font-size:12px;font-weight:700;width:48px;text-align:right;flex-shrink:0}
+.hero-card-total{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--border);padding-top:16px;margin-top:4px}
+.total-label{font-family:var(--body);font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
+.total-val{font-family:var(--serif);font-size:26px;font-weight:800;color:var(--text)}
+.total-note{font-family:var(--body);font-size:10px;color:var(--muted);font-style:italic;margin-top:4px;text-align:right}
+.hero-card-tag{display:inline-flex;align-items:center;gap:5px;background:rgba(26,71,49,.07);border:1px solid rgba(26,71,49,.12);border-radius:20px;padding:4px 12px;font-family:var(--body);font-size:11px;color:var(--primary);font-weight:600;margin-top:14px}
+
+@media(max-width:1040px){.hero-inner{grid-template-columns:1fr;gap:48px}.hero-card{max-width:480px}}
+@media(max-width:640px){.hero{padding:64px 24px 60px}.hero-actions{flex-direction:column;align-items:flex-start}}
+
+/* ── STATS BAR ── */
+.stats-bar{background:var(--primary)}
+.stats-inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:24px;border-right:1px solid rgba(255,255,255,.1);text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px}
+.stat:last-child{border-right:none}
+.stat-val{font-family:var(--serif);font-size:24px;font-weight:800;color:#fff;letter-spacing:-.3px}
+.stat-label{font-family:var(--body);font-size:11px;color:rgba(255,255,255,.55);font-style:italic;letter-spacing:.3px}
+@media(max-width:640px){.stats-inner{grid-template-columns:repeat(2,1fr)}.stat{border-bottom:1px solid rgba(255,255,255,.08)}.stat:nth-child(even){border-right:none}.stat:nth-last-child(-n+2){border-bottom:none}}
+
+/* ── INCOME PILLARS ── */
+.pillars-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border)}
+.pillar{background:var(--white);padding:34px 28px;transition:background .2s;position:relative;overflow:hidden}
+.pillar::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--primary);transform:scaleX(0);transition:transform .3s;transform-origin:left}
+.pillar:hover{background:var(--bg)}
+.pillar:hover::after{transform:scaleX(1)}
+.pillar-num{font-family:var(--serif);font-size:11px;font-weight:700;color:var(--muted2);letter-spacing:1px;margin-bottom:14px;display:block}
+.pillar-icon{width:46px;height:46px;background:var(--bg2);border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:18px;color:var(--primary);transition:all .25s}
+.pillar:hover .pillar-icon{background:var(--surface);border-color:var(--primary)}
+.pillar-name{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--text);margin-bottom:10px;line-height:1.25}
+.pillar-desc{font-family:var(--body);font-size:13px;color:var(--muted);line-height:1.78}
+.pillar-meta{display:flex;align-items:center;gap:10px;margin-top:18px;flex-wrap:wrap}
+.pillar-badge{font-family:var(--body);font-size:10px;font-weight:700;color:var(--primary);background:rgba(26,71,49,.07);border:1px solid rgba(26,71,49,.12);padding:3px 9px;border-radius:20px;letter-spacing:.5px;white-space:nowrap}
+@media(max-width:900px){.pillars-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.pillars-grid{grid-template-columns:1fr}}
+
+/* ── CALCULATOR ── */
+.calc-section{background:var(--bg);padding:76px 0;border-top:1px solid var(--border)}
+.calc-wrap{max-width:820px;margin:0 auto;background:var(--white);border:1px solid var(--border);border-radius:4px;padding:48px;box-shadow:var(--shadow-lg);position:relative}
+.calc-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--gold));border-radius:4px 4px 0 0}
+.calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-bottom:32px}
+.calc-field{display:flex;flex-direction:column;gap:8px}
+.calc-label{font-family:var(--body);font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px}
+.calc-input-wrap{position:relative}
+.calc-prefix{position:absolute;left:12px;top:50%;transform:translateY(-50%);font-family:var(--body);font-size:14px;color:var(--muted);pointer-events:none}
+.calc-input{width:100%;font-family:var(--body);font-size:16px;font-weight:600;color:var(--text);background:var(--bg2);border:1.5px solid var(--border);border-radius:var(--r);padding:12px 14px 12px 28px;outline:none;transition:border-color .2s}
+.calc-input:focus{border-color:var(--primary);background:var(--white)}
+.calc-input-no-prefix{padding-left:14px}
+.calc-range{display:flex;flex-direction:column;gap:6px}
+.calc-slider{-webkit-appearance:none;width:100%;height:4px;border-radius:2px;background:var(--surface);outline:none;cursor:pointer}
+.calc-slider::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:var(--primary);cursor:pointer;box-shadow:0 2px 6px rgba(26,71,49,.3)}
+.calc-slider-labels{display:flex;justify-content:space-between;font-family:var(--body);font-size:10px;color:var(--muted2)}
+.calc-results{background:var(--primary);border-radius:var(--r);padding:28px 32px;display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background-clip:padding-box;overflow:hidden}
+.calc-result-item{background:var(--primary);padding:16px 20px;text-align:center}
+.calc-result-item:not(:last-child){border-right:1px solid rgba(255,255,255,.1)}
+.calc-result-val{font-family:var(--serif);font-size:28px;font-weight:800;color:#fff;display:block;margin-bottom:4px;letter-spacing:-.5px}
+.calc-result-label{font-family:var(--body);font-size:11px;color:rgba(255,255,255,.55);font-style:italic}
+.calc-note{text-align:center;margin-top:16px;font-family:var(--body);font-size:11px;color:var(--muted);font-style:italic}
+@media(max-width:700px){.calc-grid{grid-template-columns:1fr}.calc-results{grid-template-columns:1fr}.calc-result-item:not(:last-child){border-right:none;border-bottom:1px solid rgba(255,255,255,.1)}.calc-wrap{padding:32px 20px}}
+
+/* ── TIMELINE ── */
+.timeline-section{background:var(--bg2);padding:76px 0}
+.timeline{display:flex;flex-direction:column;gap:0;max-width:780px;margin:0 auto;position:relative}
+.timeline::before{content:'';position:absolute;left:52px;top:0;bottom:0;width:1px;background:var(--border)}
+.timeline-item{display:flex;gap:32px;align-items:flex-start;padding-bottom:40px;position:relative}
+.timeline-item:last-child{padding-bottom:0}
+.timeline-marker{width:26px;height:26px;border-radius:50%;background:var(--white);border:2px solid var(--primary);display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;z-index:1;margin-left:40px;margin-top:4px}
+.timeline-marker-inner{width:10px;height:10px;border-radius:50%;background:var(--primary);transition:transform .3s}
+.timeline-item:hover .timeline-marker-inner{transform:scale(1.3)}
+.timeline-content{flex:1}
+.timeline-year{font-family:var(--serif);font-size:13px;font-weight:700;color:var(--gold);letter-spacing:.5px;margin-bottom:4px}
+.timeline-title{font-family:var(--serif);font-size:19px;font-weight:700;color:var(--text);margin-bottom:8px;line-height:1.3}
+.timeline-desc{font-family:var(--body);font-size:13px;color:var(--muted);line-height:1.8}
+.timeline-income{display:inline-flex;align-items:center;gap:6px;background:rgba(26,71,49,.07);border:1px solid rgba(26,71,49,.12);border-radius:20px;padding:4px 12px;font-family:var(--body);font-size:11px;font-weight:700;color:var(--primary);margin-top:12px}
+@media(max-width:640px){.timeline::before{left:12px}.timeline-item{gap:20px}.timeline-marker{margin-left:0;width:22px;height:22px}}
+
+/* ── AUTHOR ── */
+.author-section{background:var(--bg);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:76px 24px}
+.author-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:200px 1fr;gap:60px;align-items:start}
+.author-left{display:flex;flex-direction:column;align-items:center;gap:18px}
+.author-avatar{width:150px;height:150px;border-radius:50%;background:var(--primary);display:flex;align-items:center;justify-content:center;border:4px solid var(--border);box-shadow:0 6px 24px rgba(26,71,49,.18)}
+.author-initials{font-family:var(--serif);font-size:42px;font-weight:700;color:#fff}
+.author-creds{display:flex;flex-direction:column;gap:8px;width:100%}
+.author-cred-item{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:8px 12px;text-align:center}
+.cred-val{font-family:var(--serif);font-size:14px;font-weight:700;color:var(--primary);display:block;line-height:1.2}
+.cred-label{font-family:var(--body);font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1.2px;font-weight:700;margin-top:2px;display:block}
+.author-name{font-family:var(--serif);font-size:30px;font-weight:800;color:var(--text);margin-bottom:4px}
+.author-title{font-family:var(--body);font-size:12px;font-weight:600;color:var(--primary);text-transform:uppercase;letter-spacing:1.2px;background:var(--bg2);border:1px solid var(--border);padding:4px 12px;border-radius:20px;display:inline-block;margin-bottom:20px}
+.author-bio p{font-family:var(--body);font-size:15px;color:var(--muted);line-height:1.88}
+.author-bio p+p{margin-top:14px}
+.author-link{display:inline-flex;align-items:center;gap:8px;margin-top:24px;font-family:var(--body);font-size:13px;font-weight:600;color:var(--primary);border:1.5px solid var(--border);padding:10px 22px;border-radius:var(--r);transition:all .2s}
+.author-link:hover{background:var(--bg2);border-color:var(--primary)}
+@media(max-width:700px){.author-inner{grid-template-columns:1fr}.author-left{flex-direction:row;align-items:flex-start}.author-creds{flex-direction:row;flex-wrap:wrap}.author-cred-item{flex:1;min-width:70px}}
+@media(max-width:420px){.author-left{flex-direction:column;align-items:center}}
+
+/* ── ARTICLES ── */
+.articles-section{background:var(--bg2);padding:76px 0}
+.articles-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--border)}
+.article-card{background:var(--white);padding:32px 28px 28px;display:flex;flex-direction:column;transition:background .2s;position:relative;overflow:hidden}
+.article-card::after{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--primary);transform:scaleY(0);transform-origin:bottom;transition:transform .3s}
+.article-card:hover{background:var(--bg)}
+.article-card:hover::after{transform:scaleY(1)}
+.article-tag{font-family:var(--body);font-size:10px;font-weight:700;color:var(--primary);text-transform:uppercase;letter-spacing:1.8px;margin-bottom:14px;opacity:.8}
+.article-title{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--text);line-height:1.28;margin-bottom:14px;transition:color .2s}
+.article-card:hover .article-title{color:var(--primary)}
+.article-excerpt{font-family:var(--body);font-size:13px;color:var(--muted);line-height:1.8;flex:1;margin-bottom:20px}
+.article-footer{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border);padding-top:16px;margin-top:auto}
+.article-meta{font-family:var(--body);font-size:11px;color:var(--muted2)}
+.article-link{font-family:var(--body);font-size:12px;font-weight:700;color:var(--primary)}
+.articles-more{text-align:center;margin-top:40px}
+.articles-more-link{font-family:var(--body);font-size:13px;font-weight:700;color:var(--primary);border-bottom:1px solid var(--border);padding-bottom:2px;transition:border-color .2s;letter-spacing:.2px}
+.articles-more-link:hover{border-color:var(--primary)}
+@media(max-width:900px){.articles-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.articles-grid{grid-template-columns:1fr}}
+
+/* ── FREE RESOURCES ── */
+.resources-section{background:var(--bg);padding:76px 0}
+.resources-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.resource-card{background:var(--white);border:1px solid var(--border);border-radius:4px;padding:24px 20px;transition:all .2s;cursor:default}
+.resource-card:hover{border-color:var(--primary);box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.resource-icon{width:44px;height:44px;background:rgba(26,71,49,.07);border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--primary);margin-bottom:14px}
+.resource-name{font-family:var(--serif);font-size:16px;font-weight:700;color:var(--text);margin-bottom:8px;line-height:1.3}
+.resource-desc{font-family:var(--body);font-size:12px;color:var(--muted);line-height:1.7}
+.resource-free{display:inline-block;margin-top:12px;font-family:var(--body);font-size:10px;font-weight:700;color:var(--primary);background:rgba(26,71,49,.07);border:1px solid rgba(26,71,49,.12);padding:3px 10px;border-radius:20px;letter-spacing:.8px;text-transform:uppercase}
+@media(max-width:900px){.resources-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.resources-grid{grid-template-columns:1fr}}
+
+/* ── NEWSLETTER ── */
+.newsletter-section{background:var(--bg2);padding:88px 24px;position:relative;overflow:hidden}
+.newsletter-section::before{content:'';position:absolute;top:-100px;right:-80px;width:400px;height:400px;background:radial-gradient(circle,rgba(26,71,49,.06) 0%,transparent 65%);pointer-events:none}
+.nl-card{max-width:620px;margin:0 auto;background:var(--white);border:1px solid var(--border);border-radius:4px;padding:56px 52px;text-align:center;position:relative;box-shadow:var(--shadow-xl)}
+.nl-card::before{content:'';position:absolute;top:0;left:10%;right:10%;height:2px;background:linear-gradient(90deg,transparent,var(--primary),var(--gold),var(--primary),transparent);border-radius:2px}
+.nl-icon{color:var(--primary);opacity:.35;margin:0 auto 22px}
+.nl-headline{font-family:var(--serif);font-size:clamp(26px,4vw,38px);font-weight:800;color:var(--text);margin-bottom:12px;line-height:1.16;letter-spacing:-.4px}
+.nl-sub{font-family:var(--body);font-size:14px;color:var(--muted);margin-bottom:32px;line-height:1.85;font-style:italic}
+.nl-form{display:flex;gap:0;max-width:440px;margin:0 auto 16px;border:1.5px solid var(--border);border-radius:var(--r);overflow:hidden;transition:border-color .2s;box-shadow:var(--shadow)}
+.nl-form:focus-within{border-color:var(--primary)}
+.nl-form input{flex:1;background:transparent;border:none;padding:14px 16px;font-size:14px;font-family:var(--body);outline:none;min-width:0;color:var(--text)}
+.nl-form input::placeholder{color:var(--muted);font-style:italic}
+.nl-form button{background:var(--primary);color:#fff;border:none;padding:14px 24px;font-size:13px;font-weight:700;font-family:var(--body);cursor:pointer;white-space:nowrap;transition:background .2s;letter-spacing:.2px}
+.nl-form button:hover{background:var(--primary2)}
+.nl-fine{font-family:var(--body);font-size:11px;color:var(--muted);font-style:italic}
+.nl-social-proof{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:20px;font-family:var(--body);font-size:12px;color:var(--muted2);font-style:italic}
+@media(max-width:600px){.nl-card{padding:40px 24px}.nl-form{flex-direction:column;border:none;box-shadow:none}.nl-form input,.nl-form button{border:1.5px solid var(--border);border-radius:var(--r);margin-bottom:8px;padding:14px 16px;width:100%}}
+
+/* ── DISCLAIMER ── */
+.disclaimer{background:var(--surface);border-top:1px solid var(--border);padding:18px 24px}
+.disclaimer-inner{max-width:1180px;margin:0 auto;display:flex;gap:12px;align-items:flex-start}
+.disclaimer-icon{color:var(--muted);flex-shrink:0;opacity:.5;margin-top:2px}
+.disclaimer-text{font-family:var(--body);font-size:11px;color:var(--muted);line-height:1.75;font-style:italic}
+.disclaimer-text strong{font-style:normal;font-weight:700;color:var(--text)}
+
+/* ── FOOTER ── */
+.footer{background:var(--primary)}
+.footer-top{max-width:1180px;margin:0 auto;padding:60px 24px 52px;display:grid;grid-template-columns:1.8fr 1fr 1fr 1.4fr;gap:52px}
+.foot-logo{display:flex;align-items:center;gap:11px;margin-bottom:16px}
+.foot-logo-mark{width:40px;height:40px;background:rgba(255,255,255,.15);border-radius:50%;border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.foot-logo-mark span{font-family:var(--serif);font-size:14px;font-weight:700;color:#fff}
+.foot-brand-name{font-family:var(--serif);font-size:17px;font-weight:700;color:#fff;line-height:1.2}
+.foot-brand-tag{font-family:var(--body);font-size:10px;color:rgba(255,255,255,.45);font-style:italic;margin-top:1px}
+.foot-desc{font-family:var(--body);font-size:12px;color:rgba(255,255,255,.6);line-height:1.85}
+.foot-head{font-family:var(--body);font-size:10px;font-weight:700;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:2px;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.08)}
+.foot-col a{display:block;font-family:var(--body);font-size:12px;color:rgba(255,255,255,.6);padding:5px 0;transition:color .2s}
+.foot-col a:hover{color:#fff}
+.foot-post-item{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.foot-post-item:last-child{border-bottom:none}
+.foot-post-title{font-family:var(--serif);font-size:12px;color:rgba(255,255,255,.65);line-height:1.4;font-style:italic;display:block;transition:color .2s}
+.foot-post-title:hover{color:#fff}
+.foot-post-cat{font-family:var(--body);font-size:10px;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:1px;margin-top:3px}
+.footer-bottom{background:rgba(0,0,0,.2);border-top:1px solid rgba(255,255,255,.07)}
+.footer-bottom-inner{max-width:1180px;margin:0 auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.foot-copy{font-family:var(--body);font-size:11px;color:rgba(255,255,255,.35)}
+.foot-links{display:flex;gap:20px}
+.foot-links a{font-family:var(--body);font-size:11px;color:rgba(255,255,255,.35);transition:color .2s}
+.foot-links a:hover{color:rgba(255,255,255,.7)}
+@media(max-width:960px){.footer-top{grid-template-columns:1fr 1fr;gap:36px}}
+@media(max-width:580px){.footer-top{grid-template-columns:1fr;padding:40px 24px 32px}}
+
+/* ── SCROLL REVEAL ── */
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
+.reveal.visible{opacity:1;transform:none}
+#strategies,#calculator,#articles,#about,#newsletter{scroll-margin-top:72px}
+/* page */
+.ab{max-width:840px;margin:0 auto;padding:56px 24px 88px}
+.ab-kicker{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:#1a4731;margin-bottom:14px}
+.ab-title{font-family:Georgia,serif;font-size:clamp(28px,5vw,42px);font-weight:800;line-height:1.15;color:#1c1a14;margin:0 0 16px}
+.ab-lead{font-size:17px;line-height:1.7;color:#7a7060;margin-bottom:40px}
+.ab-author{display:flex;gap:16px;align-items:center;background:#f3f0e8;border:1px solid #d8d0bc;border-radius:10px;padding:20px 22px;margin-bottom:32px}
+.ab-avatar{width:56px;height:56px;border-radius:50%;background:#1a4731;color:#faf8f2;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ab-name{font-size:17px;font-weight:700;color:#1c1a14}
+.ab-role{font-size:13px;color:#1a4731;font-weight:600;margin-top:2px}
+.ab-h2{font-family:Georgia,serif;font-size:20px;font-weight:700;color:#1c1a14;margin:40px 0 14px}
+.ab-p{font-size:15px;line-height:1.85;color:#7a7060;margin-bottom:14px}
+.ab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:14px}
+.ab-card{background:#f3f0e8;border:1px solid #d8d0bc;border-radius:10px;padding:18px}
+.ab-card-av{width:38px;height:38px;border-radius:50%;background:#1a4731;color:#faf8f2;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+.ab-card-name{font-size:14px;font-weight:700;color:#1c1a14}
+.ab-card-role{font-size:11px;font-weight:600;color:#1a4731;margin:2px 0 7px}
+.ab-card-bio{font-size:12px;line-height:1.65;color:#7a7060}
+.ab-cta{margin-top:44px;background:#f3f0e8;border:1px solid #d8d0bc;border-radius:12px;padding:30px 26px;text-align:center}
+.ab-cta h3{font-family:Georgia,serif;font-size:19px;font-weight:700;color:#1c1a14;margin:0 0 8px}
+.ab-cta p{font-size:14px;color:#7a7060;margin:0 0 18px}
+.ab-cta a{display:inline-block;background:#1a4731;color:#faf8f2;padding:11px 28px;border-radius:7px;font-size:14px;font-weight:700;text-decoration:none}
 </style>
 </head>
 <body>
-
-<nav class="ln">
-  <a href="./" class="ln-brand">Passive <em>Wealth Guide</em></a>
-  <nav class="ln-nav">
-    <a href="./">Home</a>
-    <a href="about.html">About</a>
-  </nav>
+<!-- NAV -->
+<nav class="nav" id="main-nav">
+  <div class="nav-inner">
+    <a href="./" class="nav-logo">
+      <div class="nav-logo-mark"><span>PWG</span></div>
+      <div class="nav-logo-text">
+        <div class="nav-logo-name">Passive Wealth Guide</div>
+        <div class="nav-logo-tag">Building Income While You Sleep</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="#strategies" class="active">Strategies</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#articles">Articles</a>
+      <a href="#about">About</a>
+    </div>
+    <div class="nav-right">
+      <a href="#newsletter" class="nav-cta">The Wealth Letter</a>
+      <button class="nav-burger" onclick="document.getElementById('nav-mob').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="nav-mobile" id="nav-mob">
+    <a href="#strategies" onclick="document.getElementById('nav-mob').classList.remove('open')">Strategies</a>
+    <a href="#calculator" onclick="document.getElementById('nav-mob').classList.remove('open')">Calculator</a>
+    <a href="#articles" onclick="document.getElementById('nav-mob').classList.remove('open')">Articles</a>
+    <a href="#about" onclick="document.getElementById('nav-mob').classList.remove('open')">About</a>
+    <a href="#newsletter" onclick="document.getElementById('nav-mob').classList.remove('open')">The Wealth Letter</a>
+  </div>
 </nav>
-
-<div class="lah">
-  <div class="lah-top">
-    <div class="lah-avi">SS</div>
+<main class="ab">
+  <div class="ab-kicker">About Passive Wealth Guide</div>
+  <h1 class="ab-title">Building Income While You Sleep</h1>
+  <p class="ab-lead">Realistic passive income strategies from a CFP who retired early building them. The math, the timeline, the real results.</p>
+  <div class="ab-author">
+    <div class="ab-avatar">SS</div>
     <div>
-      <h1>Siavash Sadighi</h1>
-      <div class="lah-role">Investor & Financial Independence Strategist</div>
-      <div class="lah-cat">Passive Income & Investing</div>
+      <div class="ab-name">Siavash Sadighi</div>
+      <div class="ab-role">Investor & Financial Independence Strategist</div>
     </div>
   </div>
-  <div class="lah-stats">
-    <div class="lah-stat"><div class="lah-stat-num">15+</div><div class="lah-stat-lbl">Yrs Investing</div></div><div class="lah-stat"><div class="lah-stat-num">CFP</div><div class="lah-stat-lbl">Certified</div></div><div class="lah-stat"><div class="lah-stat-num">Retired 41</div><div class="lah-stat-lbl">Passive Income</div></div><div class="lah-stat"><div class="lah-stat-num">4</div><div class="lah-stat-lbl">Income Streams</div></div>
+  <div class="ab-h2">Why this site exists</div>
+  <p class="ab-p">I started investing at twenty-four on a teacher's salary, which meant starting very small. My first investment was a low-cost index fund I contributed to monthly, not because I had a sophisticated strategy but because it was the simplest thing I could do without yet understanding the alternatives. That simplicity turned out to serve me well.</p>
+    <p class="ab-p">Over time I added to the strategy - dividend-paying stocks, then REITs, then eventually a small rental property when I had saved enough for a down payment. Each layer added passive income and added complexity. I spent years understanding each one before adding the next.</p>
+    <p class="ab-p">I retired at forty-one. The honest version of that story is that it took fifteen years of consistent investing, deliberate spending, and several decisions that looked conservative at the time but preserved capital I later deployed at better prices. It was not fast, and it did not involve a viral moment.</p>
+    <p class="ab-p">What bothers me about passive income content online is the timeline problem. Almost everything presents passive income as achievable in months, with strategies that require significant capital, significant time misclassified as passive, or significant luck. The realistic timeline is measured in years, not months.</p>
+    <p class="ab-p">Passive Wealth Guide is the version for people who want the actual math. How long does it realistically take to build a specific passive income amount from a specific starting capital? What are the tax implications at each stage? Which strategies are genuinely passive and which require ongoing management? I went through all of it.</p>
+  <div class="ab-h2">Who contributes</div>
+  <p class="ab-p">Alongside Siavash Sadighi, a small group of practitioners review and pressure-test what gets published here.</p>
+  <div class="ab-grid">
+      <div class="ab-card">
+        <div class="ab-card-av">RK</div>
+        <div class="ab-card-name">Rachel Kim</div>
+        <div class="ab-card-role">Contributing Analyst</div>
+        <div class="ab-card-bio">Former hedge fund researcher. Covers quantitative methods and market microstructure. Has contributed to three academic finance papers.</div>
+      </div>
+      <div class="ab-card">
+        <div class="ab-card-av">JT</div>
+        <div class="ab-card-name">James Thorne</div>
+        <div class="ab-card-role">Technical Contributor</div>
+        <div class="ab-card-bio">Full-stack developer who switched to financial writing. Covers the engineering reality behind products and platforms.</div>
+      </div>
+      <div class="ab-card">
+        <div class="ab-card-av">MW</div>
+        <div class="ab-card-name">Marcus Webb</div>
+        <div class="ab-card-role">Senior Contributor</div>
+        <div class="ab-card-bio">15 years in institutional sales at two major banks. Writes about macro dynamics and how they translate to retail positioning.</div>
+      </div>
   </div>
-</div>
-
-<!-- hero-banner -->
-<div id="pxl-wrap" style="width:100%;height:220px;overflow:hidden;position:relative;background:var(--bg2);border-top:1px solid var(--brd);border-bottom:1px solid var(--brd);">
-  <img id="pxl-img" style="width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s;display:block;" alt="">
-  <a id="pxl-cred" href="https://www.pexels.com" target="_blank" rel="noopener" style="position:absolute;bottom:6px;right:10px;font-size:10px;color:rgba(255,255,255,.5);opacity:0;transition:opacity .6s;text-decoration:none;">Photo: Pexels</a>
-</div>
-
-<!-- JOURNEY TIMELINE -->
-<div class="laj">
-  <div class="laj-inner">
-    <div class="laj-hd">The Journey</div>
-    <div class="laj-items">
-      <div class="laj-item"><div class="laj-dot"></div><div class="laj-year">Age 26</div><div class="laj-text">Opened first brokerage account. Started with index funds and small monthly contributions.</div></div><div class="laj-item"><div class="laj-dot"></div><div class="laj-year">Age 30</div><div class="laj-text">First dividend payment. Small, but proof the strategy was real.</div></div><div class="laj-item"><div class="laj-dot"></div><div class="laj-year">Age 35</div><div class="laj-text">CFP designation earned. Passive income crossed $1,000/month for the first time.</div></div><div class="laj-item"><div class="laj-dot"></div><div class="laj-year">Age 39</div><div class="laj-text">Launched a digital product. Added a fourth income stream without adding working hours.</div></div><div class="laj-item"><div class="laj-dot"></div><div class="laj-year">Age 41</div><div class="laj-text">Financial independence reached. Left traditional employment.</div></div>
+  <div class="ab-cta">
+    <h3>The Wealth Letter</h3>
+    <p>Monthly passive income strategies and investing insights from a CFP who has lived it.</p>
+    <a href="./">Read the latest</a>
+  </div>
+</main>
+<footer class="footer">
+  <div class="footer-top">
+    <div>
+      <div class="foot-logo">
+        <div class="foot-logo-mark"><span>PWG</span></div>
+        <div>
+          <div class="foot-brand-name">Passive Wealth Guide</div>
+          <div class="foot-brand-tag">Building Income While You Sleep</div>
+        </div>
+      </div>
+      <p class="foot-desc">Realistic passive income guidance from a certified financial planner who built it herself. Evidence-based, jargon-light, and honest about the hard parts.</p>
+    </div>
+    <div class="foot-col">
+      <div class="foot-head">Strategies</div>
+      <a href="#strategies">Dividend Stocks</a>
+      <a href="#strategies">REITs</a>
+      <a href="#strategies">Index Funds</a>
+      <a href="#strategies">Rental Income</a>
+      <a href="#strategies">Digital Products</a>
+      <a href="#strategies">Tax Strategy</a>
+    </div>
+    <div class="foot-col">
+      <div class="foot-head">Site</div>
+      <a href="./">Home</a>
+      <a href="#articles">Articles</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#about">About</a>
+      <a href="#newsletter">Newsletter</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+    <div class="foot-col">
+      <div class="foot-head">Recent Posts</div>
+      <div id="foot-posts">
+        <div class="foot-post-item">
+          <a href="#articles" class="foot-post-title">The Real Timeline for Dividend Income to Replace a Salary</a>
+          <div class="foot-post-cat">Dividend Investing</div>
+        </div>
+        <div class="foot-post-item">
+          <a href="#articles" class="foot-post-title">REITs vs Rental Properties: What the Math Shows</a>
+          <div class="foot-post-cat">Real Estate</div>
+        </div>
+        <div class="foot-post-item">
+          <a href="#articles" class="foot-post-title">How Index Funds Build Wealth Faster Than Active Picking</a>
+          <div class="foot-post-cat">Index Investing</div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-
-<!-- PHILOSOPHY BANNER -->
-<div class="la-philo">
-  <blockquote>"Building Income While You Sleep"</blockquote>
-  <cite>Siavash Sadighi · Investor & Financial Independence Strategist</cite>
-</div>
-
-<div class="la-layout">
-
-  <div class="la-main">
-
-    <div class="la-sec">
-      <div class="la-sec-hd">Background</div>
-      <p class="la-p">I started investing at twenty-four on a teacher's salary, which meant starting very small. My first investment was a low-cost index fund I contributed to monthly, not because I had a sophisticated strategy but because it was the simplest thing I could do without yet understanding the alternatives. That simplicity turned out to serve me well.</p>
-    <p class="la-p">Over time I added to the strategy - dividend-paying stocks, then REITs, then eventually a small rental property when I had saved enough for a down payment. Each layer added passive income and added complexity. I spent years understanding each one before adding the next.</p>
-    <p class="la-p">I retired at forty-one. The honest version of that story is that it took fifteen years of consistent investing, deliberate spending, and several decisions that looked conservative at the time but preserved capital I later deployed at better prices. It was not fast, and it did not involve a viral moment.</p>
-    <p class="la-p">What bothers me about passive income content online is the timeline problem. Almost everything presents passive income as achievable in months, with strategies that require significant capital, significant time misclassified as passive, or significant luck. The realistic timeline is measured in years, not months.</p>
-    <p class="la-p">Passive Wealth Guide is the version for people who want the actual math. How long does it realistically take to build a specific passive income amount from a specific starting capital? What are the tax implications at each stage? Which strategies are genuinely passive and which require ongoing management? I went through all of it.</p>
-    </div>
-
-    <div class="la-quote">
-      <p>"Building Income While You Sleep"</p>
-    </div>
-
-    <div class="la-sec">
-      <div class="la-sec-hd">What I Cover</div>
-      <div class="la-inv">
-        <div class="la-inv-card"><div class="la-inv-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div><div><div class="la-inv-head">Dividend Investing</div><div class="la-inv-body">High-quality companies with consistent payout histories.</div></div></div><div class="la-inv-card"><div class="la-inv-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><div><div class="la-inv-head">REITs</div><div class="la-inv-body">Real estate investment trusts for income without direct property management.</div></div></div><div class="la-inv-card"><div class="la-inv-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg></div><div><div class="la-inv-head">Index Funds</div><div class="la-inv-body">The low-cost, tax-efficient core that outperforms most active strategies.</div></div></div><div class="la-inv-card"><div class="la-inv-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><div><div class="la-inv-head">Digital Income</div><div class="la-inv-body">Products that generate recurring revenue once built and marketed.</div></div></div><div class="la-inv-card"><div class="la-inv-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><div class="la-inv-head">Fixed Income</div><div class="la-inv-body">Capital preservation and portfolio stability for when equities fall.</div></div></div><div class="la-inv-card"><div class="la-inv-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div><div><div class="la-inv-head">Tax-Advantaged Accounts</div><div class="la-inv-body">Strategic use of registered accounts - the part most content gets wrong.</div></div></div>
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <span class="foot-copy">&#169; 2026 Passive Wealth Guide by Sarah Mills, CFP. For informational purposes only.</span>
+      <div class="foot-links">
+        <a href="./">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="disclaimer.html">Disclaimer</a>
       </div>
     </div>
-
-    <div class="la-sec">
-      <div class="la-sec-hd">How I Approach Passive Income & Investing</div>
-      <div class="la-steps">
-        <div class="la-step"><div class="la-step-dot">1</div><div><div class="la-step-head">Start with what the evidence shows</div><div class="la-step-body">Before applying any strategy, understand what the research actually supports - not what popular sources claim.</div></div></div><div class="la-step"><div class="la-step-dot">2</div><div><div class="la-step-head">Layer complexity deliberately</div><div class="la-step-body">Add one new layer at a time. Understand each piece before moving to the next.</div></div></div><div class="la-step"><div class="la-step-dot">3</div><div><div class="la-step-head">Run the realistic numbers</div><div class="la-step-body">Most projections skip the hard parts: time, cost, and real-world friction. Do the honest math first.</div></div></div><div class="la-step"><div class="la-step-dot">4</div><div><div class="la-step-head">Structure beats hustle</div><div class="la-step-body">How you organize your approach matters as much as what you do. Systems compound over time.</div></div></div><div class="la-step"><div class="la-step-dot">5</div><div><div class="la-step-head">Accept the realistic timeline</div><div class="la-step-body">Meaningful results take time. Those who succeed are the ones who stopped looking for shortcuts.</div></div></div>
-      </div>
-    </div>
-
-    <div class="la-sec">
-      <div class="la-sec-hd">About Passive Wealth Guide</div>
-      <p class="la-p">Realistic passive income strategies from a CFP who retired early building them. The math, the timeline, the real results.</p>
-      <p class="la-p">Realistic passive income guidance from a certified financial planner.</p>
-    </div>
-
-    <div class="la-sec">
-      <div class="la-sec-hd">Contributors</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div style="background:var(--bg2);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">RK</div>
-      <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">Rachel Kim</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Contributing Analyst</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">Former hedge fund researcher. Covers quantitative methods and market microstructure. Has contributed to three academic finance papers.</div>
-      </div>
-    </div>
-    <div style="background:var(--bg2);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">JT</div>
-      <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">James Thorne</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Technical Contributor</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">Full-stack developer who switched to financial writing. Covers the engineering reality behind products and platforms.</div>
-      </div>
-    </div>
-    <div style="background:var(--bg2);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">MW</div>
-      <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">Marcus Webb</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Senior Contributor</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">15 years in institutional sales at two major banks. Writes about macro dynamics and how they translate to retail positioning.</div>
-      </div>
-    </div>
-    <div style="background:var(--bg2);border:1px solid var(--brd);border-radius:10px;padding:16px;display:flex;gap:12px;align-items:flex-start">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--pri);color:#000;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0">PN</div>
-      <div>
-        <div style="font-size:14px;font-weight:700;color:var(--txt)">Priya Nair</div>
-        <div style="font-size:11px;color:var(--pri);margin-bottom:5px;font-weight:600">Research Contributor</div>
-        <div style="font-size:12px;color:var(--mut);line-height:1.6">Data scientist turned independent writer. Builds the models, then explains what they actually mean in plain language.</div>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="la-sec">
-      <div class="la-sec-hd">Reader Comments</div>
-      <div style="background:var(--bg2);border:1px solid var(--brd);border-radius:10px;padding:4px 20px">
-        <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">M</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Mike H.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">The level of detail here is what keeps me coming back. You actually back up the claims instead of just asserting them.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">D</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Denise L.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">I have been following this site for over a year. The consistency and quality have only gone up. Very few places I can say that about.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">C</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Chris V.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">Refreshing to read something that acknowledges uncertainty instead of pretending everything is obvious in hindsight.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:1px solid var(--brd)">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">O</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Omar K.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">I have read things here that changed how I think about the field. That is a high bar and this site clears it regularly.</div>
-    </div>
-    <div style="padding:14px 0;border-bottom:none">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
-        <div style="width:28px;height:28px;border-radius:50%;background:var(--pri)22;border:1px solid var(--pri)44;color:var(--pri);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center">N</div>
-        <span style="font-size:13px;font-weight:600;color:var(--txt)">Nadia F.</span>
-        <span style="font-size:10px;color:var(--mut);margin-left:auto">Verified reader</span>
-      </div>
-      <div style="font-size:13px;color:var(--txt);line-height:1.65;padding-left:36px">The writing here treats readers as intelligent adults. No dumbing down, no sensationalism, just clear analysis.</div>
-    </div>
-      </div>
-    </div>
-
   </div>
-
-  <aside class="la-side">
-
-    <div class="la-nl">
-      <h3>The Wealth Letter</h3>
-      <p>Monthly passive income strategies and investing insights from a CFP who has lived it.</p>
-      <form id="la-nl-form" onsubmit="nlSub(event)">
-        <input type="email" class="la-nl-in" placeholder="your@email.com" required>
-        <button type="submit" class="la-nl-btn">Join the letter</button>
-      </form>
-    </div>
-
-    <div class="la-card">
-      <div class="la-card-lbl">Credentials</div>
-      <p style="font-size:13px;color:var(--mut);line-height:1.8;margin-bottom:8px">Investor & Financial Independence Strategist</p>
-      <p style="font-size:13px;color:var(--mut);line-height:1.8">No product affiliations. No sponsored recommendations. No incentive to tell you anything other than what the math actually shows.</p>
-    </div>
-
-    <div class="la-card">
-      <div class="la-card-lbl">Topics Covered</div>
-      <ul style="list-style:none;display:flex;flex-direction:column;gap:8px">
-        <li style="font-size:13px;color:var(--mut);display:flex;align-items:center;gap:8px"><span style="color:var(--pri);font-weight:700">→</span> Dividend Investing</li>
-        <li style="font-size:13px;color:var(--mut);display:flex;align-items:center;gap:8px"><span style="color:var(--pri);font-weight:700">→</span> REIT Analysis</li>
-        <li style="font-size:13px;color:var(--mut);display:flex;align-items:center;gap:8px"><span style="color:var(--pri);font-weight:700">→</span> Index Fund Strategy</li>
-        <li style="font-size:13px;color:var(--mut);display:flex;align-items:center;gap:8px"><span style="color:var(--pri);font-weight:700">→</span> Tax Optimization</li>
-        <li style="font-size:13px;color:var(--mut);display:flex;align-items:center;gap:8px"><span style="color:var(--pri);font-weight:700">→</span> Early Retirement Math</li>
-        <li style="font-size:13px;color:var(--mut);display:flex;align-items:center;gap:8px"><span style="color:var(--pri);font-weight:700">→</span> Income Portfolio Design</li>
-      </ul>
-    </div>
-
-    <div class="la-card" id="la-recent-card">
-      <div class="la-card-lbl">Recent Articles</div>
-      <div id="la-recent-list" style="display:flex;flex-direction:column;gap:10px"></div>
-    </div>
-
-  </aside>
-</div>
-
-<div class="lfb">
-  <span class="lfb-copy">© Passive Wealth Guide</span>
-  <div class="lfb-links">
-    <a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a><a href="sms.html">SMS Policy</a><a href="meta-policy.html">Meta Policy</a>
-  </div>
-</div>
+</footer>
 
 <script>
-function nlSub(e){e.preventDefault();document.getElementById('la-nl-form').innerHTML='<div style="color:#fff;font-weight:600;padding:6px 0">Welcome to the letter.</div>';}
-async function loadRecent(){
-  try{
-    const r=await fetch('./articles.json');if(!r.ok)return;
-    const posts=await r.json();
-    const el=document.getElementById('la-recent-list');
-    if(el)el.innerHTML=posts.slice(0,4).map(p=>`<a href="./${p.slug||'#'}/" style="text-decoration:none;display:block;border-bottom:1px solid var(--brd);padding-bottom:8px"><div style="font-family:'Lora',Georgia,serif;font-size:13px;font-weight:600;color:var(--txt);line-height:1.4;margin-bottom:3px">${p.title}</div><div style="font-size:10px;color:var(--mut)">${p.date_iso||''}</div></a>`).join('');
-  }catch(e){}
-}
-loadRecent();
-/* banner loader: pexels → unsplash → picsum */
+// Scroll reveal
 (function(){
-  var el=document.getElementById('pxl-img');
-  var cr=document.getElementById('pxl-cred');
-  if(!el)return;
-  var SOURCES=['pexels', 'unsplash'];
-  var Q=encodeURIComponent('investing money financial growth savings');
-  var FALLBACK='https://picsum.photos/seed/481/1400/400';
-  function showImg(src,cred){
-    el.onload=function(){el.style.opacity='1';if(cred&&cr){cr.textContent=cred;cr.style.opacity='1';}};
-    el.src=src;
+  var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visible');io.unobserve(x.target);}});},{threshold:.06});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+})();
+
+// Nav scroll shadow
+window.addEventListener('scroll',function(){
+  document.getElementById('main-nav').classList.toggle('scrolled',window.scrollY>10);
+},{passive:true});
+
+// Animate hero bars
+setTimeout(function(){
+  document.querySelectorAll('.is-bar[data-w]').forEach(function(b){b.style.width=b.getAttribute('data-w')+'%';});
+},350);
+
+// Active nav on scroll
+(function(){
+  var links=document.querySelectorAll('.nav-links a');
+  var secs=['strategies','calculator','articles','about'];
+  window.addEventListener('scroll',function(){
+    var y=window.pageYOffset+80;
+    var cur='strategies';
+    secs.forEach(function(id){var el=document.getElementById(id);if(el&&el.offsetTop<=y)cur=id;});
+    links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href').replace('#','')===(cur));});
+  },{passive:true});
+})();
+
+// Calculator
+var calcRate=7,calcWr=4;
+function calcRateLabel(){calcRate=+document.getElementById('calc-rate').value;document.getElementById('calc-rate-label').textContent=calcRate+'%';}
+function calcWrLabel(){calcWr=+document.getElementById('calc-wr').value;document.getElementById('calc-wr-label').textContent=calcWr+'%';}
+function calcUpdate(){
+  var monthly=+document.getElementById('calc-monthly').value||0;
+  var target=+document.getElementById('calc-target').value||0;
+  var rate=calcRate/100/12;
+  var portfolioNeeded=target*12/calcWr*100;
+  if(!monthly||!target||!portfolioNeeded){
+    document.getElementById('calc-years').textContent='--';
+    document.getElementById('calc-portfolio').textContent='--';
+    document.getElementById('calc-income').textContent='--';
+    return;
   }
-  function tryUnsplash(){
-    var uk=localStorage.getItem('unsplashKey');
-    if(!uk){showImg(FALLBACK,'');return;}
-    fetch('https://api.unsplash.com/photos/random?query='+Q+'&count=1&orientation=landscape&client_id='+uk)
-      .then(function(r){return r.json();}).then(function(d){
-        var p=Array.isArray(d)?d[0]:d;
-        if(p&&p.urls&&p.urls.regular){showImg(p.urls.regular,'Photo: '+((p.user&&p.user.name)||'Unsplash')+' / Unsplash');}
-        else{showImg(FALLBACK,'');}
-      }).catch(function(){showImg(FALLBACK,'');});
+  // Months to reach portfolio
+  var months=0;
+  var bal=0;
+  while(bal<portfolioNeeded&&months<600){
+    bal=bal*(1+rate)+monthly;
+    months++;
   }
-  function tryPexels(){
-    var k=localStorage.getItem('pexelsKey');
-    if(!k){if(SOURCES.indexOf('unsplash')>=0)tryUnsplash();else showImg(FALLBACK,'');return;}
-    fetch('https://api.pexels.com/v1/search?query='+Q+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
-      .then(function(r){return r.json();}).then(function(d){
-        if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else if(SOURCES.indexOf('unsplash')>=0){tryUnsplash();}
-        else{showImg(FALLBACK,'');}
-      }).catch(function(){if(SOURCES.indexOf('unsplash')>=0)tryUnsplash();else showImg(FALLBACK,'');});
-  }
-  if(SOURCES.indexOf('pexels')>=0){tryPexels();}
-  else if(SOURCES.indexOf('unsplash')>=0){tryUnsplash();}
-  else{showImg(FALLBACK,'');}
+  var years=months>=600?'50+':Math.ceil(months/12);
+  document.getElementById('calc-years').textContent=years+(typeof years==='number'?' yrs':'');
+  document.getElementById('calc-portfolio').textContent='$'+(portfolioNeeded>=1e6?(portfolioNeeded/1e6).toFixed(2)+'M':Math.round(portfolioNeeded).toLocaleString());
+  document.getElementById('calc-income').textContent='$'+Math.round(target*12).toLocaleString()+'/yr';
+}
+calcUpdate();
+
+// Load articles.json
+(async function(){
+  try{
+    var r=await fetch('./articles.json');
+    if(!r.ok)throw 0;
+    var posts=await r.json();
+    if(!posts||!posts.length)throw 0;
+    var grid=document.getElementById('articles-grid');
+    if(grid){
+      grid.innerHTML=posts.slice(0,3).map(function(p){
+        return '<article class="article-card">'
+          +'<div class="article-tag">'+((p.category)||'Passive Income')+'</div>'
+          +'<h3 class="article-title">'+p.title+'</h3>'
+          +'<p class="article-excerpt">'+((p.meta_description||p.excerpt||'').slice(0,180))+'</p>'
+          +'<div class="article-footer">'
+          +'<span class="article-meta">Sarah Mills, CFP</span>'
+          +'<a href="./'+p.slug+'/" class="article-link">Read article &#8594;</a>'
+          +'</div></article>';
+      }).join('');
+    }
+    var fp=document.getElementById('foot-posts');
+    if(fp&&posts.length>=3){
+      fp.innerHTML=posts.slice(0,3).map(function(p){
+        return '<div class="foot-post-item"><a href="./'+p.slug+'/" class="foot-post-title">'+p.title+'</a><div class="foot-post-cat">'+((p.category)||'Passive Income')+'</div></div>';
+      }).join('');
+    }
+  }catch(e){}
 })();
 </script>
-</body></html>
+</body>
+</html>
