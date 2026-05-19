@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c1429",
+    "name": "Marcus T.",
+    "initials": "MT",
+    "color": "#ec4899",
+    "date_iso": "2026-05-19",
+    "date_display": "May 19, 2026",
+    "text": "Great breakdown on tax-loss harvesting. I started using this last year and saved about $3k in taxes on my index funds. Wish I'd known about it sooner.",
+    "likes": 8
+  },
+  {
+    "id": "c2748",
+    "name": "Jennifer M.",
+    "initials": "JM",
+    "color": "#10b981",
+    "date_iso": "2026-05-22",
+    "date_display": "May 22, 2026",
+    "text": "Can someone explain the wash sale rule in simpler terms? I'm worried I might be accidentally triggering it with my monthly rebalancing.",
+    "likes": 5
+  },
+  {
+    "id": "c3817",
+    "name": "David R.",
+    "initials": "DR",
+    "color": "#3ecf8e",
+    "date_iso": "2026-05-25",
+    "date_display": "May 25, 2026",
+    "text": "Hold up, most people ignore these because their brokers don't make it easy. The tools exist but they're buried in settings nobody checks.",
+    "likes": 11
+  },
+  {
+    "id": "c4822",
+    "name": "Sarah K.",
+    "initials": "SK",
+    "color": "#f97316",
+    "date_iso": "2026-05-28",
+    "date_display": "May 28, 2026",
+    "text": "Using a taxable account with high dividend stocks while keeping growth in my Roth has cut my effective tax rate significantly. This article nails it.",
+    "likes": 7
+  },
+  {
+    "id": "c5811",
+    "name": "Robert P.",
+    "initials": "RP",
+    "color": "#f97316",
+    "date_iso": "2026-06-02",
+    "date_display": "Jun 2, 2026",
+    "text": "Question: does asset location strategy still work if you're not maxing out your retirement accounts first? Or is that putting the cart before the horse?",
+    "likes": 3
+  }
+]
