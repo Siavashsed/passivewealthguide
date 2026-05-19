@@ -416,16 +416,7 @@ img{display:block;max-width:100%}
       <div class="foot-head">Recent Posts</div>
       <div id="foot-posts">
         <div class="foot-post-item">
-          <a href="#articles" class="foot-post-title">The Real Timeline for Dividend Income to Replace a Salary</a>
-          <div class="foot-post-cat">Dividend Investing</div>
-        </div>
-        <div class="foot-post-item">
-          <a href="#articles" class="foot-post-title">REITs vs Rental Properties: What the Math Shows</a>
-          <div class="foot-post-cat">Real Estate</div>
-        </div>
-        <div class="foot-post-item">
-          <a href="#articles" class="foot-post-title">How Index Funds Build Wealth Faster Than Active Picking</a>
-          <div class="foot-post-cat">Index Investing</div>
+          <span class="foot-post-title">New articles coming soon</span>
         </div>
       </div>
     </div>
@@ -437,7 +428,7 @@ img{display:block;max-width:100%}
         <a href="./">Home</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
-        <a href="disclaimer.html">Disclaimer</a>
+        <a href="./#disclaimer">Disclaimer</a>
       </div>
     </div>
   </div>
@@ -503,31 +494,36 @@ calcUpdate();
 
 // Load articles.json
 (async function(){
+  if(!document.getElementById('articles-grid'))return;
+  var posts=[];
   try{
     var r=await fetch('./articles.json');
-    if(!r.ok)throw 0;
-    var posts=await r.json();
-    if(!posts||!posts.length)throw 0;
-    var grid=document.getElementById('articles-grid');
-    if(grid){
+    if(r.ok){var d=await r.json();if(Array.isArray(d))posts=d;}
+  }catch(e){}
+  posts=posts.filter(function(p){return p&&p.slug&&p.title;});
+  var grid=document.getElementById('articles-grid');
+  if(grid){
+    if(!posts.length){
+      grid.innerHTML='<p style="grid-column:1/-1;text-align:center;font-family:Georgia,serif;font-style:italic;color:#7a7060;padding:32px 0">New articles coming soon.</p>';
+    }else{
       grid.innerHTML=posts.slice(0,3).map(function(p){
-        return '<article class="article-card">'
+        return '<a href="./'+p.slug+'/" class="article-card">'
           +'<div class="article-tag">'+((p.category)||'Passive Income')+'</div>'
           +'<h3 class="article-title">'+p.title+'</h3>'
           +'<p class="article-excerpt">'+((p.meta_description||p.excerpt||'').slice(0,180))+'</p>'
           +'<div class="article-footer">'
           +'<span class="article-meta">Sarah Mills, CFP</span>'
-          +'<a href="./'+p.slug+'/" class="article-link">Read article &#8594;</a>'
-          +'</div></article>';
+          +'<span class="article-link">Read article &#8594;</span>'
+          +'</div></a>';
       }).join('');
     }
-    var fp=document.getElementById('foot-posts');
-    if(fp&&posts.length>=3){
-      fp.innerHTML=posts.slice(0,3).map(function(p){
-        return '<div class="foot-post-item"><a href="./'+p.slug+'/" class="foot-post-title">'+p.title+'</a><div class="foot-post-cat">'+((p.category)||'Passive Income')+'</div></div>';
-      }).join('');
-    }
-  }catch(e){}
+  }
+  var fp=document.getElementById('foot-posts');
+  if(fp&&posts.length){
+    fp.innerHTML=posts.slice(0,3).map(function(p){
+      return '<div class="foot-post-item"><a href="./'+p.slug+'/" class="foot-post-title">'+p.title+'</a><div class="foot-post-cat">'+((p.category)||'Passive Income')+'</div></div>';
+    }).join('');
+  }
 })();
 </script>
 </body>
