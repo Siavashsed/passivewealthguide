@@ -646,38 +646,7 @@ img{display:block;max-width:100%}
       <h2 class="section-title">Recent Articles</h2>
       <p class="section-sub">Long-form guides that don't skip the math, the timeline, or the tax implications.</p>
     </div>
-    <div class="articles-grid" id="articles-grid">
-      <article class="article-card">
-        <div class="article-tag">Dividend Investing</div>
-        <h3 class="article-title">The Real Timeline for Dividend Income to Replace a Salary</h3>
-        <p class="article-excerpt">Starting from zero, investing $1,500 a month - here is what the timeline actually looks like, and why years 8 through 12 feel different than the early years.</p>
-        <div class="article-footer">
-          <span class="article-meta">Sarah Mills, CFP</span>
-          <span class="article-link">Read article &#8594;</span>
-        </div>
-      </article>
-      <article class="article-card">
-        <div class="article-tag">Real Estate</div>
-        <h3 class="article-title">REITs vs Rental Properties: What the Math Actually Shows</h3>
-        <p class="article-excerpt">The cash-on-cash comparison done side by side with real numbers - including vacancy, maintenance reserves, and transaction costs most people ignore.</p>
-        <div class="article-footer">
-          <span class="article-meta">Sarah Mills, CFP</span>
-          <span class="article-link">Read article &#8594;</span>
-        </div>
-      </article>
-      <article class="article-card">
-        <div class="article-tag">Index Investing</div>
-        <h3 class="article-title">How Index Funds Build Wealth Faster Than Active Picking</h3>
-        <p class="article-excerpt">The SPIVA data, expense ratio drag, tax efficiency, and why the boring strategy is statistically the best one for building long-term passive income.</p>
-        <div class="article-footer">
-          <span class="article-meta">Sarah Mills, CFP</span>
-          <span class="article-link">Read article &#8594;</span>
-        </div>
-      </article>
-    </div>
-    <div class="articles-more">
-      <a href="#articles" class="articles-more-link">Browse all articles &#8594;</a>
-    </div>
+    <div class="articles-grid" id="articles-grid"></div>
   </div>
 </section>
 
@@ -747,7 +716,7 @@ img{display:block;max-width:100%}
 </section>
 
 <!-- DISCLAIMER -->
-<div class="disclaimer">
+<div class="disclaimer" id="disclaimer">
   <div class="disclaimer-inner">
     <div class="disclaimer-icon">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
@@ -792,16 +761,7 @@ img{display:block;max-width:100%}
       <div class="foot-head">Recent Posts</div>
       <div id="foot-posts">
         <div class="foot-post-item">
-          <a href="#articles" class="foot-post-title">The Real Timeline for Dividend Income to Replace a Salary</a>
-          <div class="foot-post-cat">Dividend Investing</div>
-        </div>
-        <div class="foot-post-item">
-          <a href="#articles" class="foot-post-title">REITs vs Rental Properties: What the Math Shows</a>
-          <div class="foot-post-cat">Real Estate</div>
-        </div>
-        <div class="foot-post-item">
-          <a href="#articles" class="foot-post-title">How Index Funds Build Wealth Faster Than Active Picking</a>
-          <div class="foot-post-cat">Index Investing</div>
+          <span class="foot-post-title">New articles coming soon</span>
         </div>
       </div>
     </div>
@@ -813,7 +773,7 @@ img{display:block;max-width:100%}
         <a href="./">Home</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
-        <a href="disclaimer.html">Disclaimer</a>
+        <a href="./#disclaimer">Disclaimer</a>
       </div>
     </div>
   </div>
@@ -879,31 +839,36 @@ calcUpdate();
 
 // Load articles.json
 (async function(){
+  if(!document.getElementById('articles-grid'))return;
+  var posts=[];
   try{
     var r=await fetch('./articles.json');
-    if(!r.ok)throw 0;
-    var posts=await r.json();
-    if(!posts||!posts.length)throw 0;
-    var grid=document.getElementById('articles-grid');
-    if(grid){
+    if(r.ok){var d=await r.json();if(Array.isArray(d))posts=d;}
+  }catch(e){}
+  posts=posts.filter(function(p){return p&&p.slug&&p.title;});
+  var grid=document.getElementById('articles-grid');
+  if(grid){
+    if(!posts.length){
+      grid.innerHTML='<p style="grid-column:1/-1;text-align:center;font-family:Georgia,serif;font-style:italic;color:#7a7060;padding:32px 0">New articles coming soon.</p>';
+    }else{
       grid.innerHTML=posts.slice(0,3).map(function(p){
-        return '<article class="article-card">'
+        return '<a href="./'+p.slug+'/" class="article-card">'
           +'<div class="article-tag">'+((p.category)||'Passive Income')+'</div>'
           +'<h3 class="article-title">'+p.title+'</h3>'
           +'<p class="article-excerpt">'+((p.meta_description||p.excerpt||'').slice(0,180))+'</p>'
           +'<div class="article-footer">'
           +'<span class="article-meta">Sarah Mills, CFP</span>'
-          +'<a href="./'+p.slug+'/" class="article-link">Read article &#8594;</a>'
-          +'</div></article>';
+          +'<span class="article-link">Read article &#8594;</span>'
+          +'</div></a>';
       }).join('');
     }
-    var fp=document.getElementById('foot-posts');
-    if(fp&&posts.length>=3){
-      fp.innerHTML=posts.slice(0,3).map(function(p){
-        return '<div class="foot-post-item"><a href="./'+p.slug+'/" class="foot-post-title">'+p.title+'</a><div class="foot-post-cat">'+((p.category)||'Passive Income')+'</div></div>';
-      }).join('');
-    }
-  }catch(e){}
+  }
+  var fp=document.getElementById('foot-posts');
+  if(fp&&posts.length){
+    fp.innerHTML=posts.slice(0,3).map(function(p){
+      return '<div class="foot-post-item"><a href="./'+p.slug+'/" class="foot-post-title">'+p.title+'</a><div class="foot-post-cat">'+((p.category)||'Passive Income')+'</div></div>';
+    }).join('');
+  }
 })();
 </script>
 <!--/SHELL:FOOTER-->
