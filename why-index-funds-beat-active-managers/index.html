@@ -268,6 +268,32 @@ img{display:block;max-width:100%}
 .reveal{opacity:0;transform:translateY(20px);transition:opacity .65s ease,transform .65s ease}
 .reveal.visible{opacity:1;transform:none}
 #strategies,#calculator,#articles,#about,#newsletter{scroll-margin-top:72px}
+
+/* CONTRAST-AUDIT v1 */
+/* Article-page-only contrast guard. body[data-page-depth="1"] is stamped on
+   every article by layout_shell.wrap_page. Homepage (depth=0) is untouched. */
+body[data-page-depth="1"] h1,
+body[data-page-depth="1"] h2,
+body[data-page-depth="1"] h3,
+body[data-page-depth="1"] .art-title,
+body[data-page-depth="1"] .article-title,
+body[data-page-depth="1"] .mag-hero h1,
+body[data-page-depth="1"] .imm-hero h1,
+body[data-page-depth="1"] article h1,
+body[data-page-depth="1"] article h2,
+body[data-page-depth="1"] article h3{color:#000000 !important}
+body[data-page-depth="1"] article p,
+body[data-page-depth="1"] article li,
+body[data-page-depth="1"] .art-body p,
+body[data-page-depth="1"] .mag-body p,
+body[data-page-depth="1"] .imm-body p,
+body[data-page-depth="1"] article .intro,
+body[data-page-depth="1"] article .concl,
+body[data-page-depth="1"] article strong{color:#1a1a1a !important}
+body[data-page-depth="1"] article a,
+body[data-page-depth="1"] article p a,
+body[data-page-depth="1"] article .intro a{color:#1a4731 !important;text-decoration:underline;text-underline-offset:3px}
+/* /CONTRAST-AUDIT */
 /* page */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -293,6 +319,8 @@ img{display:block;max-width:100%}
   --body:'Lora',Georgia,serif;
   --r:3px;
 }
+/* page */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 /* page */
 .art{max-width:760px;margin:48px auto;padding:0 24px 80px}
 .hdr{background:#f7f8fa;border-bottom:1px solid #e2e5ea;padding:18px 0}
@@ -338,7 +366,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
   </div>
 </nav>
 <article itemscope itemtype="https://schema.org/Article"><div class="art">
-  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15">May 15, 2026</time></time></time></time></time></time></time> &nbsp;·&nbsp; Passive Income & Investing</div>
+  <div class="meta"><a href="../" style="color:#999">← Home</a> &nbsp;·&nbsp; <time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15"><time datetime="2026-05-15">May 15, 2026</time></time></time></time></time></time></time></time> &nbsp;·&nbsp; Passive Income & Investing</div>
   <h1>Why Index Funds Beat 90% of Active Fund Managers (And What That Means for Your Money)</h1>
   <div style="font-size:13px;color:#999;margin-bottom:24px">By <strong style="color:#444">Sarah Mills</strong></div>
   <img src="https://images.pexels.com/photos/7947709/pexels-photo-7947709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Computer screen showing a rising stock market index fund performance graph over multiple years" loading="lazy" style="width:100%;height:400px;object-fit:cover;border-radius:8px;margin:28px 0"><p style="font-size:11px;color:#999;margin:-16px 0 20px">Photo by RDNE Stock project / Pexels</p>
@@ -481,7 +509,7 @@ p{margin-bottom:18px;color:#444;line-height:1.75}
     }).catch(function(){allComments=[];rerender();});
   }
 })();
-</script></article></article></article></article></article></article></article>
+</script></article></article></article></article></article></article></article></article>
 <footer class="footer">
   <div class="footer-top">
     <div>
