@@ -2,7 +2,7 @@
   {
     "title": "How Dividend Stocks Build Passive Income Over Time (And Why I Trusted Them With My Retirement)",
     "slug": "dividend-stocks-passive-income-over-time",
-    "meta_description": "Certified financial planner Sarah Mills explains how dividend stocks build passive income over time — with real numbers, honest risks, and no fluff.",
+    "meta_description": "Certified financial planner Sarah Mills explains how dividend stocks build passive income over time \u2014 with real numbers, honest risks, and no fluff.",
     "date": "May 15, 2026",
     "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
@@ -10,7 +10,8 @@
     "outbound_links": [
       "hartfordfunds.com",
       "dripinvesting.org"
-    ]
+    ],
+    "category": "Dividend Stocks"
   },
   {
     "title": "REITs vs Rental Property: A Real Numbers Comparison (From Someone Who's Done Both)",
@@ -23,24 +24,26 @@
     "outbound_links": [
       "nareit.com",
       "investor.gov"
-    ]
+    ],
+    "category": "Dividend Stocks"
   },
   {
     "title": "How to Build a $1,000/Month Passive Income Stream From Scratch (A Real Plan, Not a Fantasy)",
     "slug": "1000-month-passive-income-scratch",
-    "meta_description": "Sarah Mills retired at 41 through passive income. Here's her honest, step-by-step plan for building $1,000/month from scratch — no fluff, no hype.",
+    "meta_description": "Sarah Mills retired at 41 through passive income. Here's her honest, step-by-step plan for building $1,000/month from scratch \u2014 no fluff, no hype.",
     "date": "May 15, 2026",
     "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
     "image": "https://images.pexels.com/photos/12920750/pexels-photo-12920750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "hartfordfunds.com"
-    ]
+    ],
+    "category": "Rental Income"
   },
   {
     "title": "Why Index Funds Beat 90% of Active Fund Managers (And What That Means for Your Money)",
     "slug": "why-index-funds-beat-active-managers",
-    "meta_description": "Index funds consistently outperform most active managers. CFP Sarah Mills explains why — with data, real experience, and one actionable step.",
+    "meta_description": "Index funds consistently outperform most active managers. CFP Sarah Mills explains why \u2014 with data, real experience, and one actionable step.",
     "date": "May 15, 2026",
     "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
@@ -48,12 +51,13 @@
     "outbound_links": [
       "spiva.spglobal.com",
       "investor.vanguard.com"
-    ]
+    ],
+    "category": "Index Funds"
   },
   {
     "title": "How to Evaluate a High-Yield Savings Account in 2025 (Before the Rates Drop Again)",
     "slug": "evaluate-high-yield-savings-account-2025",
-    "meta_description": "CFP Sarah Mills shares exactly what to check before opening a high-yield savings account in 2025 — beyond the headline APY.",
+    "meta_description": "CFP Sarah Mills shares exactly what to check before opening a high-yield savings account in 2025 \u2014 beyond the headline APY.",
     "date": "May 15, 2026",
     "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
@@ -61,12 +65,13 @@
     "outbound_links": [
       "fdic.gov",
       "bauerfinancial.com"
-    ]
+    ],
+    "category": "Dividend Stocks"
   },
   {
     "title": "Peer-to-Peer Lending: What the Platforms Don't Tell You Before You Sign Up",
     "slug": "peer-to-peer-lending-hidden-risks",
-    "meta_description": "A retired CFP reveals the hidden risks of peer-to-peer lending that platforms bury in fine print — and how to protect yourself.",
+    "meta_description": "A retired CFP reveals the hidden risks of peer-to-peer lending that platforms bury in fine print \u2014 and how to protect yourself.",
     "date": "May 15, 2026",
     "date_iso": "2026-05-15",
     "author": "Siavash Sadighi",
@@ -75,12 +80,13 @@
       "altfi.com",
       "sec.gov",
       "fca.org.uk"
-    ]
+    ],
+    "category": "Dividend Stocks"
   },
   {
     "title": "Passive Income With Digital Products: What Nobody Tells You About the First 18 Months",
     "slug": "digital-products-passive-income-expectations",
-    "meta_description": "Realistic expectations for earning passive income with digital products — from a CFP who's been through it. No hype, just honest numbers.",
+    "meta_description": "Realistic expectations for earning passive income with digital products \u2014 from a CFP who's been through it. No hype, just honest numbers.",
     "date": "May 16, 2026",
     "date_iso": "2026-05-16",
     "author": "Siavash Sadighi",
@@ -88,12 +94,13 @@
     "outbound_links": [
       "podia.com",
       "gumroad.com"
-    ]
+    ],
+    "category": "Digital Products"
   },
   {
     "title": "Tax-Efficient Investing Strategies Most People Quietly Ignore",
     "slug": "tax-efficient-investing-strategies-ignored",
-    "meta_description": "CFP Sarah Mills shares the tax-efficient investing moves most investors overlook — and why they matter more than picking the right stock.",
+    "meta_description": "CFP Sarah Mills shares the tax-efficient investing moves most investors overlook \u2014 and why they matter more than picking the right stock.",
     "date": "May 17, 2026",
     "date_iso": "2026-05-17",
     "author": "Siavash Sadighi",
@@ -101,6 +108,7 @@
     "outbound_links": [
       "investor.vanguard.com",
       "treasurydirect.gov"
-    ]
+    ],
+    "category": "Tax Strategy"
   }
 ]
