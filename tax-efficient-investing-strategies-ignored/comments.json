@@ -1,52 +1,52 @@
 [
   {
-    "id": "c1429",
+    "id": "c1852",
     "name": "Marcus T.",
     "initials": "MT",
     "color": "#ec4899",
-    "date_iso": "2026-05-19",
-    "date_display": "May 19, 2026",
-    "text": "Great breakdown on tax-loss harvesting. I started using this last year and saved about $3k in taxes on my index funds. Wish I'd known about it sooner.",
-    "likes": 8
+    "date_iso": "2026-05-20",
+    "date_display": "May 20, 2026",
+    "text": "Finally someone talking about tax-loss harvesting. I've saved over $8k in taxes the last two years using this strategy and most of my friends have no idea it exists.",
+    "likes": 9
   },
   {
-    "id": "c2748",
-    "name": "Jennifer M.",
-    "initials": "JM",
+    "id": "c2899",
+    "name": "Jennifer K.",
+    "initials": "JK",
     "color": "#10b981",
-    "date_iso": "2026-05-22",
-    "date_display": "May 22, 2026",
-    "text": "Can someone explain the wash sale rule in simpler terms? I'm worried I might be accidentally triggering it with my monthly rebalancing.",
-    "likes": 5
-  },
-  {
-    "id": "c3817",
-    "name": "David R.",
-    "initials": "DR",
-    "color": "#3ecf8e",
-    "date_iso": "2026-05-25",
-    "date_display": "May 25, 2026",
-    "text": "Hold up, most people ignore these because their brokers don't make it easy. The tools exist but they're buried in settings nobody checks.",
-    "likes": 11
-  },
-  {
-    "id": "c4822",
-    "name": "Sarah K.",
-    "initials": "SK",
-    "color": "#f97316",
-    "date_iso": "2026-05-28",
-    "date_display": "May 28, 2026",
-    "text": "Using a taxable account with high dividend stocks while keeping growth in my Roth has cut my effective tax rate significantly. This article nails it.",
+    "date_iso": "2026-05-23",
+    "date_display": "May 23, 2026",
+    "text": "Great article but I'm confused about the difference between qualified and non-qualified dividends. Can anyone explain how this affects someone with a moderate portfolio around $150k?",
     "likes": 7
   },
   {
-    "id": "c5811",
-    "name": "Robert P.",
-    "initials": "RP",
+    "id": "c3797",
+    "name": "David R.",
+    "initials": "DR",
+    "color": "#3ecf8e",
+    "date_iso": "2026-05-26",
+    "date_display": "May 26, 2026",
+    "text": "The municipal bond section was eye-opening. Been in index funds for 15 years and never considered how much I'm losing to taxes each year.",
+    "likes": 12
+  },
+  {
+    "id": "c4810",
+    "name": "Sarah M.",
+    "initials": "SM",
     "color": "#f97316",
+    "date_iso": "2026-05-29",
+    "date_display": "May 29, 2026",
+    "text": "I respectfully disagree with the asset location strategy for most people. Unless you have significant wealth, the complexity isn't worth the 1-2% savings.",
+    "likes": 5
+  },
+  {
+    "id": "c5984",
+    "name": "Thomas B.",
+    "initials": "TB",
+    "color": "#6366f1",
     "date_iso": "2026-06-02",
     "date_display": "Jun 2, 2026",
-    "text": "Question: does asset location strategy still work if you're not maxing out your retirement accounts first? Or is that putting the cart before the horse?",
-    "likes": 3
+    "text": "Using a taxable account strategically combined with my 401k has genuinely changed my passive income game. Wish I'd optimized this sooner.",
+    "likes": 8
   }
 ]
