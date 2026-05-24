@@ -7,7 +7,7 @@
     "date_iso": "2026-05-20",
     "date_display": "May 20, 2026",
     "text": "Finally someone talking about tax-loss harvesting. I've saved over $8k in taxes the last two years using this strategy and most of my friends have no idea it exists.",
-    "likes": 9
+    "likes": 1
   },
   {
     "id": "c2899",
@@ -17,36 +17,6 @@
     "date_iso": "2026-05-23",
     "date_display": "May 23, 2026",
     "text": "Great article but I'm confused about the difference between qualified and non-qualified dividends. Can anyone explain how this affects someone with a moderate portfolio around $150k?",
-    "likes": 7
-  },
-  {
-    "id": "c3797",
-    "name": "David R.",
-    "initials": "DR",
-    "color": "#3ecf8e",
-    "date_iso": "2026-05-26",
-    "date_display": "May 26, 2026",
-    "text": "The municipal bond section was eye-opening. Been in index funds for 15 years and never considered how much I'm losing to taxes each year.",
-    "likes": 12
-  },
-  {
-    "id": "c4810",
-    "name": "Sarah M.",
-    "initials": "SM",
-    "color": "#f97316",
-    "date_iso": "2026-05-29",
-    "date_display": "May 29, 2026",
-    "text": "I respectfully disagree with the asset location strategy for most people. Unless you have significant wealth, the complexity isn't worth the 1-2% savings.",
-    "likes": 5
-  },
-  {
-    "id": "c5984",
-    "name": "Thomas B.",
-    "initials": "TB",
-    "color": "#6366f1",
-    "date_iso": "2026-06-02",
-    "date_display": "Jun 2, 2026",
-    "text": "Using a taxable account strategically combined with my 401k has genuinely changed my passive income game. Wish I'd optimized this sooner.",
-    "likes": 8
+    "likes": 0
   }
 ]
