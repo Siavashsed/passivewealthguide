@@ -1,4 +1,4 @@
-# Backlink content — Tax-Efficient Investing Strategies Most People Quietly Ignore
+# Backlink content - Tax-Efficient Investing Strategies Most People Quietly Ignore
 **URL:** https://siavashsed.github.io/passivewealthguide/tax-efficient-investing-strategies-ignored/
 **Generated:** 2026-05-17
 
@@ -8,7 +8,7 @@
 **Post to:** r/investing, r/financialindependence, r/personalfinance
 **Title:** Why your ETF choice matters way less than where you hold it (and what this costs you)
 
-I've been seeing a lot of posts lately about picking the "perfect" ETF, and I get it—the research rabbit hole is real. But here's what nobody talks about: a Vanguard study from 2022 found that tax-efficient portfolio placement can add up to 1.5% in annual returns for taxable accounts. Over 20 years, that compounds into a genuinely significant difference.
+I've been seeing a lot of posts lately about picking the "perfect" ETF, and I get it-the research rabbit hole is real. But here's what nobody talks about: a Vanguard study from 2022 found that tax-efficient portfolio placement can add up to 1.5% in annual returns for taxable accounts. Over 20 years, that compounds into a genuinely significant difference.
 
 Most people spend hours optimizing their fund selection and maybe four minutes thinking about tax location strategy. It's backwards. The spread between a great ETF and a mediocre one might be 0.3-0.5% annually. Tax inefficiency in the wrong account type? That's easily 1-2% dragging you down every year.
 
@@ -52,6 +52,6 @@ Here are the strategies that actually move the needle:
 
 **Strategic Rebalancing Timing**: Rebalance within tax-deferred accounts, and use new contributions or dividends to rebalance taxable accounts. Most people just rebalance everywhere equally and pay unnecessary capital gains.
 
-A comprehensive analysis of these strategies shows that tax-efficient portfolio construction can add approximately 1.5% in net annual returns—which sounds small until you compound it over decades. I've written about implementation details and specific tactics here that might be helpful: https://siavashsed.github.io/passivewealthguide/tax-efficient-investing-strategies-ignored/
+A comprehensive analysis of these strategies shows that tax-efficient portfolio construction can add approximately 1.5% in net annual returns-which sounds small until you compound it over decades. I've written about implementation details and specific tactics here that might be helpful: https://siavashsed.github.io/passivewealthguide/tax-efficient-investing-strategies-ignored/
 
 The hardest part isn't the math. It's the discipline to do unglamorous work that compounds invisibly.
