@@ -110,5 +110,64 @@
       "treasurydirect.gov"
     ],
     "category": "Tax Strategy"
+  },
+  {
+    "title": "The High-Yield Savings Boom of 2023: What It Really Meant for Passive Income Investors",
+    "slug": "high-yield-savings-boom-2023",
+    "meta_description": "High-yield savings accounts hit 5%+ APY in 2023. Ryan Mitchell explains what that shift meant for passive income strategy and where to go from here.",
+    "date": "August 24, 2023",
+    "date_iso": "2023-08-24",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7654190/pexels-photo-7654190.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "fdic.gov",
+      "investopedia.com",
+      "pewresearch.org"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Robinhood's 2020 Collapse and What It Taught Passive Investors About Platform Risk",
+    "slug": "robinhood-2020-outage-passive-investors",
+    "meta_description": "Robinhood's March 2020 outages during the crash exposed a real risk passive investors ignored. Here's what it meant for your income strategy.",
+    "date": "December 02, 2020",
+    "date_iso": "2020-12-02",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/4911384/pexels-photo-4911384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reuters.com",
+      "statista.com",
+      "finra.org"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Robinhood Zero-Commission Era Hit Passive Investors Hard in 2020 (And Not How You Think)",
+    "slug": "robinhood-zero-commission-2020-passive-investing",
+    "meta_description": "In 2020, zero-commission trading reshaped passive income investing. Here's what it really meant for dividend investors and long-term savers.",
+    "date": "August 05, 2020",
+    "date_iso": "2020-08-05",
+    "author": "Tanya Kumar",
+    "image": "https://images.pexels.com/photos/5717734/pexels-photo-5717734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nber.org",
+      "techcrunch.com",
+      "sec.gov",
+      "spglobal.com"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
