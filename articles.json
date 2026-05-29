@@ -169,5 +169,44 @@
       "en"
     ],
     "category": "Dividend Stocks"
+  },
+  {
+    "title": "Royalty Investments: How to Earn Passive Income from Music, Books, and Patents",
+    "slug": "royalty-investments-passive-income-music-books-patents",
+    "meta_description": "Earn passive income from royalty investments in music, books, and patents. Ryan Mitchell breaks down what actually works and what to watch out for.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/3090/hand-music-musician-compose.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "royaltyexchange.com",
+      "royaltypharma.com",
+      "billboard.com",
+      "publishersweekly.com",
+      "sec.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The I Bond Frenzy of 2022: What It Really Meant for Passive Income Investors",
+    "slug": "i-bond-frenzy-2022-passive-income",
+    "meta_description": "In 2022, I Bonds hit 9.62% interest. Here's what that moment meant for passive income investors and what you should actually do with it.",
+    "date": "November 09, 2022",
+    "date_iso": "2022-11-09",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/64824/pexels-photo-64824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "wsj.com",
+      "bls.gov",
+      "treasurydirect.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
