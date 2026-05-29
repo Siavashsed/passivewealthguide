@@ -128,7 +128,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Dividend Stocks"
   },
   {
     "title": "Robinhood's 2020 Collapse and What It Taught Passive Investors About Platform Risk",
@@ -146,7 +147,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Dividend Stocks"
   },
   {
     "title": "The Robinhood Zero-Commission Era Hit Passive Investors Hard in 2020 (And Not How You Think)",
@@ -165,6 +167,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Dividend Stocks"
   }
 ]
