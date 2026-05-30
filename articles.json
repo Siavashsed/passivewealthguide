@@ -8,7 +8,9 @@
     "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1400&q=85&auto=format&fit=crop",
     "date": "May 30, 2026",
     "date_iso": "2026-05-30",
-    "posted_iso": "2026-05-30T03:03:55.685052"
+    "posted_iso": "2026-05-30T03:03:55.685052",
+    "cross_post_exclude": true,
+    "aggregate": false
   },
   {
     "title": "How Dividend Stocks Build Passive Income Over Time (And Why I Trusted Them With My Retirement)",
