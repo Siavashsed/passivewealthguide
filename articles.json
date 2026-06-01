@@ -223,5 +223,41 @@
       "en"
     ],
     "category": "Dividend Stocks"
+  },
+  {
+    "title": "The Hidden Tax Trap in Passive Income (And How to Legally Avoid It)",
+    "slug": "hidden-tax-trap-passive-income",
+    "meta_description": "Passive income sounds tax-friendly until the IRS bill arrives. CFP Ryan Mitchell explains the hidden traps and legal ways to keep more of what you earn.",
+    "date": "June 01, 2026",
+    "date_iso": "2026-06-01",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/6694569/pexels-photo-6694569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "irs.gov",
+      "taxfoundation.org"
+    ],
+    "posted_iso": "2026-06-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The High-Yield Savings Account Explosion of 2023: What Passive Income Investors Actually Gained",
+    "slug": "hysa-passive-income-2023-retrospective",
+    "meta_description": "In 2023, HYSAs crossed 5% APY for the first time in 15 years. Here's what that meant for passive income investors-and what most people missed.",
+    "date": "October 21, 2023",
+    "date_iso": "2023-10-21",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/9660/business-money-pink-coins.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "bankrate.com",
+      "fdic.gov"
+    ],
+    "posted_iso": "2026-06-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
