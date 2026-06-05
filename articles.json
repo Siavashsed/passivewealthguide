@@ -1,5 +1,23 @@
 [
   {
+    "title": "The Hidden Tax Trap in Passive Income (And How to Legally Avoid It)",
+    "slug": "hidden-tax-trap-passive-income",
+    "meta_description": "Passive income sounds tax-friendly until the IRS bill arrives. CFP Ryan Mitchell explains the hidden traps and legal ways to keep more of what you earn.",
+    "date": "June 01, 2026",
+    "date_iso": "2026-06-01",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/6694569/pexels-photo-6694569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "irs.gov",
+      "taxfoundation.org"
+    ],
+    "posted_iso": "2026-06-01",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Tax Strategy"
+  },
+  {
     "slug": "ai-amazon-arbitrage-underrated-online-income",
     "title": "The AI-Plus-Amazon Arbitrage Method Almost Nobody Talks About",
     "meta_description": "Most passive income content recycles the same five strategies. There is a quieter sixth one that pairs AI trend analysis with Amazon retail arbitrage - and the people running it consistently underestimate how good it is.",
@@ -11,6 +29,55 @@
     "posted_iso": "2026-05-30T03:03:55.685052",
     "cross_post_exclude": true,
     "aggregate": false
+  },
+  {
+    "title": "Royalty Investments: How to Earn Passive Income from Music, Books, and Patents",
+    "slug": "royalty-investments-passive-income-music-books-patents",
+    "meta_description": "Earn passive income from royalty investments in music, books, and patents. Ryan Mitchell breaks down what actually works and what to watch out for.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/3090/hand-music-musician-compose.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "royaltyexchange.com",
+      "royaltypharma.com",
+      "billboard.com",
+      "publishersweekly.com",
+      "sec.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Dividend Stocks"
+  },
+  {
+    "title": "Tax-Efficient Investing Strategies Most People Quietly Ignore",
+    "slug": "tax-efficient-investing-strategies-ignored",
+    "meta_description": "CFP Sarah Mills shares the tax-efficient investing moves most investors overlook - and why they matter more than picking the right stock.",
+    "date": "May 17, 2026",
+    "date_iso": "2026-05-17",
+    "author": "Sarah Mills",
+    "image": "https://images.pexels.com/photos/6863510/pexels-photo-6863510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "investor.vanguard.com",
+      "treasurydirect.gov"
+    ],
+    "category": "Tax Strategy"
+  },
+  {
+    "title": "Passive Income With Digital Products: What Nobody Tells You About the First 18 Months",
+    "slug": "digital-products-passive-income-expectations",
+    "meta_description": "Realistic expectations for earning passive income with digital products - from a CFP who's been through it. No hype, just honest numbers.",
+    "date": "May 16, 2026",
+    "date_iso": "2026-05-16",
+    "author": "Sarah Mills",
+    "image": "https://images.pexels.com/photos/34502061/pexels-photo-34502061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "podia.com",
+      "gumroad.com"
+    ],
+    "category": "Digital Products"
   },
   {
     "title": "How Dividend Stocks Build Passive Income Over Time (And Why I Trusted Them With My Retirement)",
@@ -97,32 +164,42 @@
     "category": "Dividend Stocks"
   },
   {
-    "title": "Passive Income With Digital Products: What Nobody Tells You About the First 18 Months",
-    "slug": "digital-products-passive-income-expectations",
-    "meta_description": "Realistic expectations for earning passive income with digital products - from a CFP who's been through it. No hype, just honest numbers.",
-    "date": "May 16, 2026",
-    "date_iso": "2026-05-16",
-    "author": "Sarah Mills",
-    "image": "https://images.pexels.com/photos/34502061/pexels-photo-34502061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "What Passive Really Means When an Algorithm Runs the Operation",
+    "slug": "what-passive-means-when-algorithm-runs-operation",
+    "meta_description": "A new category of income sits between a job and a portfolio: the agent-run operation. Ryan Mitchell, CFP, on how to evaluate it honestly, where the risk hides, and what passive actually means now.",
+    "date": "February 09, 2026",
+    "date_iso": "2026-02-09",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7947709/pexels-photo-7947709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "category": "Passive Income & Investing",
     "outbound_links": [
-      "podia.com",
-      "gumroad.com"
+      "sec.gov",
+      "investopedia.com"
     ],
-    "category": "Digital Products"
+    "posted_iso": "2026-02-09",
+    "available_languages": [
+      "en"
+    ]
   },
   {
-    "title": "Tax-Efficient Investing Strategies Most People Quietly Ignore",
-    "slug": "tax-efficient-investing-strategies-ignored",
-    "meta_description": "CFP Sarah Mills shares the tax-efficient investing moves most investors overlook - and why they matter more than picking the right stock.",
-    "date": "May 17, 2026",
-    "date_iso": "2026-05-17",
-    "author": "Sarah Mills",
-    "image": "https://images.pexels.com/photos/6863510/pexels-photo-6863510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "The High-Yield Savings Account Explosion of 2023: What Passive Income Investors Actually Gained",
+    "slug": "hysa-passive-income-2023-retrospective",
+    "meta_description": "In 2023, HYSAs crossed 5% APY for the first time in 15 years. Here's what that meant for passive income investors-and what most people missed.",
+    "date": "October 21, 2023",
+    "date_iso": "2023-10-21",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/9660/business-money-pink-coins.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "investor.vanguard.com",
-      "treasurydirect.gov"
+      "federalreserve.gov",
+      "bankrate.com",
+      "fdic.gov"
     ],
-    "category": "Tax Strategy"
+    "posted_iso": "2026-06-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ],
+    "category": "Dividend Stocks"
   },
   {
     "title": "The High-Yield Savings Boom of 2023: What It Really Meant for Passive Income Investors",
@@ -138,6 +215,26 @@
       "investopedia.com",
       "pewresearch.org"
     ],
+    "historical": true,
+    "available_languages": [
+      "en"
+    ],
+    "category": "Dividend Stocks"
+  },
+  {
+    "title": "The I Bond Frenzy of 2022: What It Really Meant for Passive Income Investors",
+    "slug": "i-bond-frenzy-2022-passive-income",
+    "meta_description": "In 2022, I Bonds hit 9.62% interest. Here's what that moment meant for passive income investors and what you should actually do with it.",
+    "date": "November 09, 2022",
+    "date_iso": "2022-11-09",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/64824/pexels-photo-64824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "wsj.com",
+      "bls.gov",
+      "treasurydirect.gov"
+    ],
+    "posted_iso": "2026-05-29",
     "historical": true,
     "available_languages": [
       "en"
@@ -177,85 +274,6 @@
       "sec.gov",
       "spglobal.com"
     ],
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Dividend Stocks"
-  },
-  {
-    "title": "Royalty Investments: How to Earn Passive Income from Music, Books, and Patents",
-    "slug": "royalty-investments-passive-income-music-books-patents",
-    "meta_description": "Earn passive income from royalty investments in music, books, and patents. Ryan Mitchell breaks down what actually works and what to watch out for.",
-    "date": "May 29, 2026",
-    "date_iso": "2026-05-29",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/3090/hand-music-musician-compose.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "royaltyexchange.com",
-      "royaltypharma.com",
-      "billboard.com",
-      "publishersweekly.com",
-      "sec.gov"
-    ],
-    "posted_iso": "2026-05-29",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Dividend Stocks"
-  },
-  {
-    "title": "The I Bond Frenzy of 2022: What It Really Meant for Passive Income Investors",
-    "slug": "i-bond-frenzy-2022-passive-income",
-    "meta_description": "In 2022, I Bonds hit 9.62% interest. Here's what that moment meant for passive income investors and what you should actually do with it.",
-    "date": "November 09, 2022",
-    "date_iso": "2022-11-09",
-    "author": "Lucia Mendes",
-    "image": "https://images.pexels.com/photos/64824/pexels-photo-64824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "wsj.com",
-      "bls.gov",
-      "treasurydirect.gov"
-    ],
-    "posted_iso": "2026-05-29",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Dividend Stocks"
-  },
-  {
-    "title": "The Hidden Tax Trap in Passive Income (And How to Legally Avoid It)",
-    "slug": "hidden-tax-trap-passive-income",
-    "meta_description": "Passive income sounds tax-friendly until the IRS bill arrives. CFP Ryan Mitchell explains the hidden traps and legal ways to keep more of what you earn.",
-    "date": "June 01, 2026",
-    "date_iso": "2026-06-01",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/6694569/pexels-photo-6694569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "irs.gov",
-      "taxfoundation.org"
-    ],
-    "posted_iso": "2026-06-01",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Tax Strategy"
-  },
-  {
-    "title": "The High-Yield Savings Account Explosion of 2023: What Passive Income Investors Actually Gained",
-    "slug": "hysa-passive-income-2023-retrospective",
-    "meta_description": "In 2023, HYSAs crossed 5% APY for the first time in 15 years. Here's what that meant for passive income investors-and what most people missed.",
-    "date": "October 21, 2023",
-    "date_iso": "2023-10-21",
-    "author": "Siavash Sadighi",
-    "image": "https://images.pexels.com/photos/9660/business-money-pink-coins.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "bankrate.com",
-      "fdic.gov"
-    ],
-    "posted_iso": "2026-06-01",
     "historical": true,
     "available_languages": [
       "en"
