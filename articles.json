@@ -279,5 +279,40 @@
       "en"
     ],
     "category": "Dividend Stocks"
+  },
+  {
+    "title": "The Psychology of Passive Income: Why Most People Fail (And How to Succeed)",
+    "slug": "psychology-passive-income-why-people-fail",
+    "meta_description": "Most people fail at passive income for psychological reasons, not financial ones. Ryan Mitchell breaks down why and what actually works.",
+    "date": "June 08, 2026",
+    "date_iso": "2026-06-08",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "dalbar.com",
+      "ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-06-08",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Fed's Rate Pivot in 2024: What It Really Meant for Passive Income Investors",
+    "slug": "fed-rate-cuts-2024-passive-income",
+    "meta_description": "The Fed cut rates three times in 2024. Here's what that meant for passive income investors - and what smart money did next.",
+    "date": "April 08, 2024",
+    "date_iso": "2024-04-08",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/29457492/pexels-photo-29457492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "hartfordfunds.com"
+    ],
+    "posted_iso": "2026-06-08",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
