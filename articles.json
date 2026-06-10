@@ -314,5 +314,25 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "I Bond Rates Hit 9.62%: What That Number Actually Changed in 2022",
+    "slug": "i-bond-9-62-percent-2022-passive-income",
+    "meta_description": "In 2022, I Bond rates hit 9.62% - the highest in decades. Here's what it meant for passive income investors and whether the hype was justified.",
+    "date": "January 25, 2022",
+    "date_iso": "2022-01-25",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5466796/pexels-photo-5466796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "treasurydirect.gov",
+      "bls.gov",
+      "federalreserve.gov",
+      "trends.google.com"
+    ],
+    "posted_iso": "2026-06-10",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
