@@ -334,5 +334,43 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Bad Timing Can Wreck a Good Portfolio: The Sequence of Returns Trap",
+    "slug": "sequence-of-returns-risk-portfolio-order",
+    "meta_description": "Sequence of returns risk can destroy a retirement portfolio even with solid average gains. Here's what it means and how to protect yourself.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7947705/pexels-photo-7947705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "morningstar.com",
+      "kitces.com",
+      "financialplanningassociation.org",
+      "institutional.vanguard.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Treasury Direct Hit 9.62%: What the I-Bond Frenzy of 2024 Actually Taught Us",
+    "slug": "i-bond-rate-reset-2024-passive-income",
+    "meta_description": "I-Bonds dominated passive income talk in 2024. Ryan Mitchell breaks down what the rate reset meant, who got burned, and what to do now.",
+    "date": "August 05, 2024",
+    "date_iso": "2024-08-05",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/35501875/pexels-photo-35501875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "treasurydirect.gov",
+      "wsj.com",
+      "federalreserve.gov"
+    ],
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
