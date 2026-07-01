@@ -372,5 +372,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "I Ran Poppy AI for 30 Days of Passive Content. Here's the Real Ledger",
+    "slug": "poppy-ai-passive-content-test",
+    "meta_description": "I tested Poppy AI for a month of passive content creation. Real hours saved, real costs, and where it quietly fell apart. An honest report.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/8472576/pexels-photo-8472576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reuters.com",
+      "pewresearch.org"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
