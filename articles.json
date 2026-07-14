@@ -372,5 +372,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The Boring $47 Check That Quietly Rewired My Retirement",
+    "slug": "dividend-stocks-passive-income-time",
+    "meta_description": "How dividend stocks build passive income over time, with real numbers, honest risks, and a plan that compounds while you sleep.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5698162/pexels-photo-5698162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hartfordfunds.com",
+      "spglobal.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Fed Just Cut Rates to Zero. Your Savings Account Is Now a Rounding Error",
+    "slug": "fed-zero-rates-2020-passive-income",
+    "meta_description": "In March 2020 the Fed slashed rates to near zero and gutted savings yields. Here's what it means for passive income investors right now.",
+    "date": "December 30, 2020",
+    "date_iso": "2020-12-30",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7186396/pexels-photo-7186396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "fdic.gov"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
