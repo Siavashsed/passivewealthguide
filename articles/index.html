@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>All Articles - Passive Wealth Guide</title>
-<meta name="description" content="All articles from Passive Wealth Guide. Realistic passive income guidance from a certified financial planner.">
+<meta name="description" content="All articles from Passive Wealth Guide. Realistic passive income guidance from a personal finance writer.">
 <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="alternate icon" href="favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -296,7 +296,7 @@ body[data-page-depth="1"] article .concl,
 body[data-page-depth="1"] article strong{color:var(--text,#171717) !important}
 body[data-page-depth="1"] article a,
 body[data-page-depth="1"] article p a,
-body[data-page-depth="1"] article .intro a{color:var(--text,#15803d) !important;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1.5px}
+body[data-page-depth="1"] article .intro a{color:var(--text,#15803d) !important;text-decoration:none;text-underline-offset:3px;text-decoration-thickness:1.5px}
 /* /CONTRAST-AUDIT */
 
 /* ── PASSIVE-WEALTH ARTICLE STYLE OVERRIDES ───────────────────────────────
@@ -515,18 +515,23 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
   if(_initialQ){searchEl.value=_initialQ;}
   function escapeHtml(t){return String(t==null?'':t).replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];});}
   function slugHref(p){return '../'+encodeURIComponent(p.slug||'').replace(/%2F/g,'/')+'/';}
-  // Fuzzy match: a card category like "Europe" should match articles
-  // tagged "Europe", "European Travel", or any cat containing the token.
-  function catMatches(articleCat, filterCat){
+  // Geographic destinations (Europe, Asia, Americas, Africa, Caribbean) are not
+  // article categories, so match them against the whole article (title, meta,
+  // category, region/tags) via a continent -> places map. Topic filters keep the
+  // simple fuzzy match. Stops destination tiles landing on empty pages.
+  var GEO={europe:['europe','european','portugal','lisbon','porto','algarve','italy','italian','rome','spain','spanish','barcelona','france','french','paris','greece','greek','croatia','iceland','balkan','amsterdam','prague','vienna'],asia:['asia','asian','japan','japanese','tokyo','kyoto','vietnam','thailand','thai','bangkok','bali','indonesia','india','indian','nepal','korea','seoul','singapore','cambodia','laos','philippines','sri lanka'],americas:['americas','america','usa','united states','canada','mexico','mexican','patagonia','argentina','peru','cusco','chile','brazil','colombia','costa rica','andes','california','new york'],africa:['africa','african','morocco','moroccan','marrakech','medina','riad','safari','kenya','tanzania','egypt','south africa','namibia','zanzibar'],caribbean:['caribbean','island','islands','coast','coastal','bahamas','jamaica','cuba','barbados','beach','tropical','reef']};
+  function _hay(p){return ((p.category||'')+' '+(p.title||'')+' '+(p.meta_description||'')+' '+(p.region||'')+' '+((p.tags||[]).join(' '))).toLowerCase();}
+  function catMatches(p, filterCat){
     if(filterCat==='__all__')return true;
-    if(!articleCat)return false;
-    var a=String(articleCat).toLowerCase(), f=String(filterCat).toLowerCase();
-    return a===f||a.indexOf(f)!==-1||f.indexOf(a)!==-1;
+    var f=String(filterCat).toLowerCase(), hay=_hay(p), g=GEO[f];
+    if(g){for(var i=0;i<g.length;i++){if(hay.indexOf(g[i])!==-1)return true;}return false;}
+    var a=String(p.category||SITE_CAT).toLowerCase();
+    return a===f||a.indexOf(f)!==-1||f.indexOf(a)!==-1||hay.indexOf(f)!==-1;
   }
   function filtered(){
     var q=query.trim().toLowerCase();
     return all.filter(function(p){
-      if(!catMatches(p.category||SITE_CAT, activeCat))return false;
+      if(!catMatches(p, activeCat))return false;
       if(q&&String(p.title||'').toLowerCase().indexOf(q)===-1)return false;
       return true;
     });
@@ -620,7 +625,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
           <div class="foot-brand-tag">Building Income While You Sleep</div>
         </div>
       </div>
-      <p class="foot-desc">Realistic passive income guidance from a certified financial planner who built it herself. Evidence-based, jargon-light, and honest about the hard parts.</p>
+      <p class="foot-desc">Realistic passive income guidance from a personal finance writer who built it herself. Evidence-based, jargon-light, and honest about the hard parts.</p>
     </div>
     <div class="foot-col">
       <div class="foot-head">Strategies</div>
@@ -651,7 +656,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
   </div>
   <div class="footer-bottom">
     <div class="footer-bottom-inner">
-      <span class="foot-copy">&#169; 2026 Passive Wealth Guide by Sarah Mills, CFP. For informational purposes only.</span>
+      <span class="foot-copy">&#169; 2026 Passive Wealth Guide by Sarah Mills. For informational purposes only.</span>
       <div class="foot-links">
         <a href="./">Home</a>
         <a href="privacy">Privacy</a>
@@ -747,7 +752,7 @@ calcUpdate();
           +'<h3 class="article-title">'+p.title+'</h3>'
           +'<p class="article-excerpt">'+((p.meta_description||p.excerpt||'').slice(0,180))+'</p>'
           +'<div class="article-footer">'
-          +'<span class="article-meta">Sarah Mills, CFP</span>'
+          +'<span class="article-meta">Sarah Mills</span>'
           +'<span class="article-link">Read article &#8594;</span>'
           +'</div></a>';
       }).join('');
