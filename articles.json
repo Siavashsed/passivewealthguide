@@ -407,5 +407,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "What $1,000 a Month in Passive Income Actually Takes",
+    "slug": "1000-month-passive-income-plan",
+    "meta_description": "A grounded plan to build a $1,000/month passive income stream from scratch, with real numbers, honest risks, and the math nobody shows you.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "spglobal.com",
+      "bls.gov"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
