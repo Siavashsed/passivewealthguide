@@ -424,5 +424,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Index Funds Keep Beating 90% of Pros. Here's the Ugly Math",
+    "slug": "index-funds-beat-fund-managers",
+    "meta_description": "Index funds beat roughly 90% of active fund managers over 15 years. The data, the fee math, and what I did with my own money after seeing it.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5789907/pexels-photo-5789907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "spglobal.com",
+      "morningstar.com",
+      "ici.org",
+      "berkshirehathaway.com"
+    ],
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
