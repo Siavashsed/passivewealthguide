@@ -443,5 +443,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Four Numbers That Matter More Than Your Savings Account APY",
+    "slug": "high-yield-savings-checklist-2025",
+    "meta_description": "Rates are falling in 2025. Four checks that matter more than a high-yield savings account's advertised APY, from a writer who rate-chased and lost.",
+    "date": "July 17, 2026",
+    "date_iso": "2026-07-17",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7688524/pexels-photo-7688524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fdic.gov",
+      "federalreserve.gov",
+      "bankrate.com",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-07-17",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
