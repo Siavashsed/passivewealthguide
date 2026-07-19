@@ -462,5 +462,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "P2P Lending Promised Me 7.9 Percent. I Got 4.1.",
+    "slug": "p2p-lending-what-platforms-hide",
+    "meta_description": "What peer-to-peer lending platforms don't tell you: real returns after defaults, multi-year lockups, taxes, and what happens when the platform itself shuts down.",
+    "date": "July 19, 2026",
+    "date_iso": "2026-07-19",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/8297031/pexels-photo-8297031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk",
+      "reuters.com",
+      "theguardian.com"
+    ],
+    "posted_iso": "2026-07-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
