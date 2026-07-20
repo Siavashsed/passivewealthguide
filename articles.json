@@ -480,5 +480,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your First Digital Product Will Probably Earn $34 a Month",
+    "slug": "digital-products-realistic-passive-income",
+    "meta_description": "Honest numbers on passive income with digital products: what my templates and ebooks actually earned, why most fail, and the math that decides it.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "gumroad.com",
+      "bls.gov",
+      "investors.etsy.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
