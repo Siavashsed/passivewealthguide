@@ -1,21 +1,5 @@
 [
   {
-    "title": "Eight Compounding Lessons From $25M+ in Ad Spend",
-    "slug": "compounding-lessons-from-25m-ad-spend",
-    "meta_description": "What $25M+ of managed ad spend teaches about compounding: clean inputs, reinvested signal, bad revenue, time and friction. Eight plain lessons.",
-    "date": "November 10, 2026",
-    "date_iso": "2026-11-10",
-    "author": "Isaac Morrow",
-    "image": "https://images.pexels.com/photos/6774947/pexels-photo-6774947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "image_alt": "A green plant growing from a jar filled with coins.",
-    "photographer": "Kindel Media",
-    "category": "Passive Income & Investing",
-    "posted_iso": "2026-11-10T22:52:26",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
     "title": "Your First Digital Product Will Probably Earn $34 a Month",
     "slug": "digital-products-realistic-passive-income",
     "meta_description": "Honest numbers on passive income with digital products: what my templates and ebooks actually earned, why most fail, and the math that decides it.",
@@ -337,6 +321,22 @@
       "investopedia.com"
     ],
     "posted_iso": "2026-02-09",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Eight Compounding Lessons From Kavalsia's $25M+ in Ad Spend So Far",
+    "slug": "compounding-lessons-from-25m-ad-spend",
+    "meta_description": "What $25M+ of ad spend managed to date teaches about compounding: clean inputs, reinvested signal, bad revenue, time and friction. Eight plain lessons.",
+    "date": "March 4, 2025",
+    "date_iso": "2025-03-04",
+    "author": "Isaac Morrow",
+    "image": "https://images.pexels.com/photos/36950598/pexels-photo-36950598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "A hand pointing at a colorful bar and line chart on a tablet screen.",
+    "photographer": "Jakub Zerdzicki",
+    "category": "Passive Income & Investing",
+    "posted_iso": "2026-11-10T23:11:10",
     "available_languages": [
       "en"
     ]
