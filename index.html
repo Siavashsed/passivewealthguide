@@ -319,7 +319,29 @@ body[data-page-depth="1"] #comments-section h2{font-family:'Inter Tight',sans-se
 body[data-page-depth="1"] #comments-section textarea{border-radius:10px !important;font-family:'Inter',sans-serif !important;border-color:#d4d4d4 !important;font-size:14px !important}
 body[data-page-depth="1"] #comments-section button{background:#15803d !important;color:#fff !important;border-radius:10px !important;padding:11px 22px !important;font-weight:600 !important;font-family:'Inter Tight',sans-serif !important}
 body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !important}</style>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet"><style>.site-nav{background:#faf8f2!important;border-bottom:1px solid #d8d0bc!important}.site-nav-logo{font-family:Lora,Georgia,serif!important;font-size:20px!important;font-weight:700!important;color:#1c1a14!important}.site-nav-links a{color:#7a7060!important;font-weight:500!important}.site-nav-links a:hover{color:#1c1a14!important;border-bottom-color:#1a4731!important}.site-nav-back{color:#7a7060!important}.site-nav-back:hover{color:#1c1a14!important}</style>
+<!-- Meta Pixel (Kavalsia network) -->
+<script>
+(function(){
+if(window.__KAVALSIA_META_LOADED)return;window.__KAVALSIA_META_LOADED=true;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', "3117791381934109");
+var FIRE_PV=true,SITE_ID="passivewealthguide",SITE_NAME="Passive Wealth Guide",VIEW_EVT="Viewed Passive Wealth Guide",SIGNUP_EVT="Passive Wealth Guide NewsletterSignup",MIRROR_CAPI=false;
+var segs=location.pathname.split('/').filter(Boolean);var SLUG=segs.length?segs[segs.length-1].replace(/\.html$/,''):'home';if(SLUG==='index')SLUG='home';
+var BASE={site_id:SITE_ID,site_name:SITE_NAME,content_name:SLUG,page_path:location.pathname};
+function P(x){var o={};for(var k in BASE)o[k]=BASE[k];for(var j in x)o[j]=x[j];return o;}
+if(FIRE_PV){try{fbq('track','PageView');}catch(e){}}
+try{fbq('trackCustom',VIEW_EVT,P({page_title:document.title,referrer:document.referrer||''}));}catch(e){}
+function mirrorCAPI(evtName,payload){if(!MIRROR_CAPI)return;try{var hub=(window.KAVALSIA_HUB_URL||'').replace(/\/$/,'');if(!hub)return;fetch(hub+'/api/meta-capi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({site_id:SITE_ID,event_name:evtName,payload:payload})}).catch(function(){});}catch(e){}}
+mirrorCAPI(VIEW_EVT,P({}));
+var MARKS=[30,60,120],fired={},acc=0,last=document.hidden?0:Date.now();
+function tick(){var now=Date.now();if(last){acc+=(now-last)/1000;}last=document.hidden?0:now;for(var i=0;i<MARKS.length;i++){var m=MARKS[i];if(!fired[m]&&acc>=m){fired[m]=1;var ev='TimeSpent'+m+'s';try{fbq('trackCustom',ev,P({seconds:m}));}catch(e){}mirrorCAPI(ev,P({seconds:m}));}}if(fired[120])clearInterval(iv);}
+var iv=setInterval(tick,1000);document.addEventListener('visibilitychange',tick);
+function sha256Hex(str){if(!window.crypto||!crypto.subtle)return Promise.resolve('');var buf=new TextEncoder().encode(String(str||'').trim().toLowerCase());return crypto.subtle.digest('SHA-256',buf).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('00'+b.toString(16)).slice(-2);}).join('');});}
+document.addEventListener('submit',function(ev){try{var f=ev.target;if(!f||!f.tagName||f.tagName.toLowerCase()!=='form')return;var emailEl=f.querySelector('input[type=email], input[name*=email i]');if(!emailEl||!emailEl.value)return;var email=emailEl.value;sha256Hex(email).then(function(h){try{fbq('trackCustom',SIGNUP_EVT,P({email_hashed:h}));}catch(e){}mirrorCAPI(SIGNUP_EVT,P({email_hashed:h}));});}catch(e){}},true);
+})();
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=3117791381934109&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel -->
 </head>
 <body>
 <!-- PRELOADER: smooth charismatic fade-in. A vertical hairline draws down,
@@ -432,7 +454,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
         </div>
         <div class="total-note">Illustrative - not a guarantee of returns</div>
         <div class="hero-card-tag">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/></svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
           Built over 15 years, layer by layer
         </div>
       </div>
@@ -476,7 +498,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
       <div class="pillar">
         <span class="pillar-num">01</span>
         <div class="pillar-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
         </div>
         <h3 class="pillar-name">Dividend Stocks</h3>
         <p class="pillar-desc">The backbone of most early retirement portfolios. Dividend growth stocks compound quietly for years before you feel the income. Yield vs. growth tradeoffs, payout ratios, and how to build a portfolio that raises your income every year.</p>
@@ -488,7 +510,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
       <div class="pillar">
         <span class="pillar-num">02</span>
         <div class="pillar-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         </div>
         <h3 class="pillar-name">REITs</h3>
         <p class="pillar-desc">Real estate exposure without a down payment or a tenant calling at midnight. REITs must distribute 90% of income, making them unusually reliable cash flow instruments - once you understand how to evaluate them beyond yield alone.</p>
@@ -512,7 +534,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
       <div class="pillar">
         <span class="pillar-num">04</span>
         <div class="pillar-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-9"/><path d="M14 17H5"/><circle cx="17" cy="17" r="3"/><circle cx="7" cy="7" r="3"/></svg>
         </div>
         <h3 class="pillar-name">Rental Income</h3>
         <p class="pillar-desc">The most labor-intensive passive income on this list - and the one with the best tax treatment. Honest math on cash-on-cash returns, vacancy rates, and why most landlords underestimate their true costs in year one.</p>
@@ -536,7 +558,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
       <div class="pillar">
         <span class="pillar-num">06</span>
         <div class="pillar-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
         </div>
         <h3 class="pillar-name">Tax Strategy</h3>
         <p class="pillar-desc">The difference between a 3% and 4.5% effective yield is often just tax placement. Asset location, qualified dividends, depreciation recapture on rentals - the tax layer is where most passive income guides go silent.</p>
@@ -721,7 +743,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
     <div class="resources-grid">
       <div class="resource-card">
         <div class="resource-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
         </div>
         <h3 class="resource-name">Dividend Portfolio Spreadsheet</h3>
         <p class="resource-desc">Track yield, payout ratios, and dividend growth across your holdings. Includes annual income projection.</p>
@@ -729,7 +751,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
       </div>
       <div class="resource-card">
         <div class="resource-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         </div>
         <h3 class="resource-name">Rental Property Cash Flow Analyzer</h3>
         <p class="resource-desc">Calculate true cash-on-cash return including vacancy, CapEx reserves, property management, and financing.</p>
@@ -759,7 +781,7 @@ body[data-page-depth="1"] #comments-section button:hover{background:#0d5328 !imp
 <section class="newsletter-section reveal" id="newsletter">
   <div class="nl-card">
     <div class="nl-icon">
-      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/></svg>
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M12 12C12 6 17 3 20 3c0 4-2 9-8 9z"/><path d="M12 12C12 6 7 3 4 3c0 4 2 9 8 9z"/></svg>
     </div>
     <h2 class="nl-headline">The Wealth Letter</h2>
     <p class="nl-sub">Monthly passive income strategies and investing insights from someone who has lived it. No fluff, no sponsored content - just the real numbers.</p>
