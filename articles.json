@@ -1,5 +1,165 @@
 [
   {
+    "title": "Eight Compounding Lessons From $25M+ in Ad Spend",
+    "slug": "compounding-lessons-from-25m-ad-spend",
+    "meta_description": "What $25M+ of managed ad spend teaches about compounding: clean inputs, reinvested signal, bad revenue, time and friction. Eight plain lessons.",
+    "date": "November 10, 2026",
+    "date_iso": "2026-11-10",
+    "author": "Isaac Morrow",
+    "image": "https://images.pexels.com/photos/6774947/pexels-photo-6774947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "A green plant growing from a jar filled with coins.",
+    "photographer": "Kindel Media",
+    "category": "Passive Income & Investing",
+    "posted_iso": "2026-11-10T22:52:26",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Your First Digital Product Will Probably Earn $34 a Month",
+    "slug": "digital-products-realistic-passive-income",
+    "meta_description": "Honest numbers on passive income with digital products: what my templates and ebooks actually earned, why most fail, and the math that decides it.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "gumroad.com",
+      "bls.gov",
+      "investors.etsy.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "P2P Lending Promised Me 7.9 Percent. I Got 4.1.",
+    "slug": "p2p-lending-what-platforms-hide",
+    "meta_description": "What peer-to-peer lending platforms don't tell you: real returns after defaults, multi-year lockups, taxes, and what happens when the platform itself shuts down.",
+    "date": "July 19, 2026",
+    "date_iso": "2026-07-19",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/8297031/pexels-photo-8297031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk",
+      "reuters.com",
+      "theguardian.com"
+    ],
+    "posted_iso": "2026-07-19",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Four Numbers That Matter More Than Your Savings Account APY",
+    "slug": "high-yield-savings-checklist-2025",
+    "meta_description": "Rates are falling in 2025. Four checks that matter more than a high-yield savings account's advertised APY, from a writer who rate-chased and lost.",
+    "date": "July 17, 2026",
+    "date_iso": "2026-07-17",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7688524/pexels-photo-7688524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fdic.gov",
+      "federalreserve.gov",
+      "bankrate.com",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-07-17",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Index Funds Keep Beating 90% of Pros. Here's the Ugly Math",
+    "slug": "index-funds-beat-fund-managers",
+    "meta_description": "Index funds beat roughly 90% of active fund managers over 15 years. The data, the fee math, and what I did with my own money after seeing it.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5789907/pexels-photo-5789907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "spglobal.com",
+      "morningstar.com",
+      "ici.org",
+      "berkshirehathaway.com"
+    ],
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "What $1,000 a Month in Passive Income Actually Takes",
+    "slug": "1000-month-passive-income-plan",
+    "meta_description": "A grounded plan to build a $1,000/month passive income stream from scratch, with real numbers, honest risks, and the math nobody shows you.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "spglobal.com",
+      "bls.gov"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Boring $47 Check That Quietly Rewired My Retirement",
+    "slug": "dividend-stocks-passive-income-time",
+    "meta_description": "How dividend stocks build passive income over time, with real numbers, honest risks, and a plan that compounds while you sleep.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5698162/pexels-photo-5698162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "hartfordfunds.com",
+      "spglobal.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Bad Timing Can Wreck a Good Portfolio: The Sequence of Returns Trap",
+    "slug": "sequence-of-returns-risk-portfolio-order",
+    "meta_description": "Sequence of returns risk can destroy a retirement portfolio even with solid average gains. Here's what it means and how to protect yourself.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7947705/pexels-photo-7947705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "morningstar.com",
+      "kitces.com",
+      "financialplanningassociation.org",
+      "institutional.vanguard.com"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Psychology of Passive Income: Why Most People Fail (And How to Succeed)",
+    "slug": "psychology-passive-income-why-people-fail",
+    "meta_description": "Most people fail at passive income for psychological reasons, not financial ones. Ryan Mitchell breaks down why and what actually works.",
+    "date": "June 08, 2026",
+    "date_iso": "2026-06-08",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "dalbar.com",
+      "ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-06-08",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
     "title": "The Hidden Tax Trap in Passive Income (And How to Legally Avoid It)",
     "slug": "hidden-tax-trap-passive-income",
     "meta_description": "Passive income sounds tax-friendly until the IRS bill arrives. CFP Ryan Mitchell explains the hidden traps and legal ways to keep more of what you earn.",
@@ -182,6 +342,43 @@
     ]
   },
   {
+    "title": "Treasury Direct Hit 9.62%: What the I-Bond Frenzy of 2024 Actually Taught Us",
+    "slug": "i-bond-rate-reset-2024-passive-income",
+    "meta_description": "I-Bonds dominated passive income talk in 2024. Ryan Mitchell breaks down what the rate reset meant, who got burned, and what to do now.",
+    "date": "August 05, 2024",
+    "date_iso": "2024-08-05",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/35501875/pexels-photo-35501875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "treasurydirect.gov",
+      "wsj.com",
+      "federalreserve.gov"
+    ],
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Fed's Rate Pivot in 2024: What It Really Meant for Passive Income Investors",
+    "slug": "fed-rate-cuts-2024-passive-income",
+    "meta_description": "The Fed cut rates three times in 2024. Here's what that meant for passive income investors - and what smart money did next.",
+    "date": "April 08, 2024",
+    "date_iso": "2024-04-08",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/29457492/pexels-photo-29457492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "hartfordfunds.com"
+    ],
+    "posted_iso": "2026-06-08",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
     "title": "The High-Yield Savings Account Explosion of 2023: What Passive Income Investors Actually Gained",
     "slug": "hysa-passive-income-2023-retrospective",
     "meta_description": "In 2023, HYSAs crossed 5% APY for the first time in 15 years. Here's what that meant for passive income investors-and what most people missed.",
@@ -242,6 +439,44 @@
     "category": "Dividend Stocks"
   },
   {
+    "title": "I Bond Rates Hit 9.62%: What That Number Actually Changed in 2022",
+    "slug": "i-bond-9-62-percent-2022-passive-income",
+    "meta_description": "In 2022, I Bond rates hit 9.62% - the highest in decades. Here's what it meant for passive income investors and whether the hype was justified.",
+    "date": "January 25, 2022",
+    "date_iso": "2022-01-25",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5466796/pexels-photo-5466796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "treasurydirect.gov",
+      "bls.gov",
+      "federalreserve.gov",
+      "trends.google.com"
+    ],
+    "posted_iso": "2026-06-10",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Fed Just Cut Rates to Zero. Your Savings Account Is Now a Rounding Error",
+    "slug": "fed-zero-rates-2020-passive-income",
+    "meta_description": "In March 2020 the Fed slashed rates to near zero and gutted savings yields. Here's what it means for passive income investors right now.",
+    "date": "December 30, 2020",
+    "date_iso": "2020-12-30",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/7186396/pexels-photo-7186396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "fdic.gov"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
     "title": "Robinhood's 2020 Collapse and What It Taught Passive Investors About Platform Risk",
     "slug": "robinhood-2020-outage-passive-investors",
     "meta_description": "Robinhood's March 2020 outages during the crash exposed a real risk passive investors ignored. Here's what it meant for your income strategy.",
@@ -279,224 +514,5 @@
       "en"
     ],
     "category": "Dividend Stocks"
-  },
-  {
-    "title": "The Psychology of Passive Income: Why Most People Fail (And How to Succeed)",
-    "slug": "psychology-passive-income-why-people-fail",
-    "meta_description": "Most people fail at passive income for psychological reasons, not financial ones. Ryan Mitchell breaks down why and what actually works.",
-    "date": "June 08, 2026",
-    "date_iso": "2026-06-08",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "dalbar.com",
-      "ncbi.nlm.nih.gov"
-    ],
-    "posted_iso": "2026-06-08",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The Fed's Rate Pivot in 2024: What It Really Meant for Passive Income Investors",
-    "slug": "fed-rate-cuts-2024-passive-income",
-    "meta_description": "The Fed cut rates three times in 2024. Here's what that meant for passive income investors - and what smart money did next.",
-    "date": "April 08, 2024",
-    "date_iso": "2024-04-08",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/29457492/pexels-photo-29457492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "hartfordfunds.com"
-    ],
-    "posted_iso": "2026-06-08",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "I Bond Rates Hit 9.62%: What That Number Actually Changed in 2022",
-    "slug": "i-bond-9-62-percent-2022-passive-income",
-    "meta_description": "In 2022, I Bond rates hit 9.62% - the highest in decades. Here's what it meant for passive income investors and whether the hype was justified.",
-    "date": "January 25, 2022",
-    "date_iso": "2022-01-25",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/5466796/pexels-photo-5466796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "treasurydirect.gov",
-      "bls.gov",
-      "federalreserve.gov",
-      "trends.google.com"
-    ],
-    "posted_iso": "2026-06-10",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Bad Timing Can Wreck a Good Portfolio: The Sequence of Returns Trap",
-    "slug": "sequence-of-returns-risk-portfolio-order",
-    "meta_description": "Sequence of returns risk can destroy a retirement portfolio even with solid average gains. Here's what it means and how to protect yourself.",
-    "date": "July 01, 2026",
-    "date_iso": "2026-07-01",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/7947705/pexels-photo-7947705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "morningstar.com",
-      "kitces.com",
-      "financialplanningassociation.org",
-      "institutional.vanguard.com"
-    ],
-    "posted_iso": "2026-07-01",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Treasury Direct Hit 9.62%: What the I-Bond Frenzy of 2024 Actually Taught Us",
-    "slug": "i-bond-rate-reset-2024-passive-income",
-    "meta_description": "I-Bonds dominated passive income talk in 2024. Ryan Mitchell breaks down what the rate reset meant, who got burned, and what to do now.",
-    "date": "August 05, 2024",
-    "date_iso": "2024-08-05",
-    "author": "Lucia Mendes",
-    "image": "https://images.pexels.com/photos/35501875/pexels-photo-35501875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "treasurydirect.gov",
-      "wsj.com",
-      "federalreserve.gov"
-    ],
-    "posted_iso": "2026-07-01",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The Boring $47 Check That Quietly Rewired My Retirement",
-    "slug": "dividend-stocks-passive-income-time",
-    "meta_description": "How dividend stocks build passive income over time, with real numbers, honest risks, and a plan that compounds while you sleep.",
-    "date": "July 13, 2026",
-    "date_iso": "2026-07-13",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/5698162/pexels-photo-5698162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "hartfordfunds.com",
-      "spglobal.com"
-    ],
-    "posted_iso": "2026-07-13",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The Fed Just Cut Rates to Zero. Your Savings Account Is Now a Rounding Error",
-    "slug": "fed-zero-rates-2020-passive-income",
-    "meta_description": "In March 2020 the Fed slashed rates to near zero and gutted savings yields. Here's what it means for passive income investors right now.",
-    "date": "December 30, 2020",
-    "date_iso": "2020-12-30",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/7186396/pexels-photo-7186396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "federalreserve.gov",
-      "fdic.gov"
-    ],
-    "posted_iso": "2026-07-13",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "What $1,000 a Month in Passive Income Actually Takes",
-    "slug": "1000-month-passive-income-plan",
-    "meta_description": "A grounded plan to build a $1,000/month passive income stream from scratch, with real numbers, honest risks, and the math nobody shows you.",
-    "date": "July 15, 2026",
-    "date_iso": "2026-07-15",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/5849563/pexels-photo-5849563.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "spglobal.com",
-      "bls.gov"
-    ],
-    "posted_iso": "2026-07-15",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Index Funds Keep Beating 90% of Pros. Here's the Ugly Math",
-    "slug": "index-funds-beat-fund-managers",
-    "meta_description": "Index funds beat roughly 90% of active fund managers over 15 years. The data, the fee math, and what I did with my own money after seeing it.",
-    "date": "July 16, 2026",
-    "date_iso": "2026-07-16",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/5789907/pexels-photo-5789907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "spglobal.com",
-      "morningstar.com",
-      "ici.org",
-      "berkshirehathaway.com"
-    ],
-    "posted_iso": "2026-07-16",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Four Numbers That Matter More Than Your Savings Account APY",
-    "slug": "high-yield-savings-checklist-2025",
-    "meta_description": "Rates are falling in 2025. Four checks that matter more than a high-yield savings account's advertised APY, from a writer who rate-chased and lost.",
-    "date": "July 17, 2026",
-    "date_iso": "2026-07-17",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/7688524/pexels-photo-7688524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "fdic.gov",
-      "federalreserve.gov",
-      "bankrate.com",
-      "reuters.com"
-    ],
-    "posted_iso": "2026-07-17",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "P2P Lending Promised Me 7.9 Percent. I Got 4.1.",
-    "slug": "p2p-lending-what-platforms-hide",
-    "meta_description": "What peer-to-peer lending platforms don't tell you: real returns after defaults, multi-year lockups, taxes, and what happens when the platform itself shuts down.",
-    "date": "July 19, 2026",
-    "date_iso": "2026-07-19",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/8297031/pexels-photo-8297031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "fca.org.uk",
-      "reuters.com",
-      "theguardian.com"
-    ],
-    "posted_iso": "2026-07-19",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Your First Digital Product Will Probably Earn $34 a Month",
-    "slug": "digital-products-realistic-passive-income",
-    "meta_description": "Honest numbers on passive income with digital products: what my templates and ebooks actually earned, why most fail, and the math that decides it.",
-    "date": "July 20, 2026",
-    "date_iso": "2026-07-20",
-    "author": "Ryan Mitchell",
-    "image": "https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "gumroad.com",
-      "bls.gov",
-      "investors.etsy.com"
-    ],
-    "posted_iso": "2026-07-20",
-    "available_languages": [
-      "en"
-    ]
   }
 ]
