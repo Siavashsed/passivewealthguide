@@ -526,5 +526,45 @@
       "en"
     ],
     "category": "Dividend Stocks"
+  },
+  {
+    "title": "Your Money's Final Decade Earns More Than the First Twenty",
+    "slug": "compound-interest-over-30-years",
+    "meta_description": "How compound interest actually works over 30 years: real numbers on $500 a month, why the last decade pays most, and the fee that eats a sixth of it.",
+    "date": "November 15, 2026",
+    "date_iso": "2026-11-15",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/10149616/pexels-photo-10149616.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "investor.gov",
+      "morningstar.com",
+      "spglobal.com",
+      "pages.stern.nyu.edu"
+    ],
+    "posted_iso": "2026-11-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Nearly $6 Trillion Fled to Money Market Funds in 2023, and I Followed",
+    "slug": "money-market-funds-record-2023",
+    "meta_description": "Money market funds hit record highs in 2023 after SVB failed and yields topped 5%. What it meant for passive income, and where the trap was.",
+    "date": "April 04, 2023",
+    "date_iso": "2023-04-04",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/39274072/pexels-photo-39274072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ici.org",
+      "fdic.gov",
+      "federalreserve.gov",
+      "sec.gov",
+      "investor.vanguard.com"
+    ],
+    "posted_iso": "2026-11-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
