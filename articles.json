@@ -566,5 +566,26 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your 6% Yield Is Losing to Inflation. Chase the Raise Instead",
+    "slug": "dividend-growth-portfolio-beats-inflation",
+    "meta_description": "How to build a dividend growth portfolio that beats inflation: why growth rate beats yield, the screen I use, and the trade-offs nobody mentions.",
+    "date": "November 16, 2026",
+    "date_iso": "2026-11-16",
+    "author": "Siavash Sadighi",
+    "image": "https://images.pexels.com/photos/5712576/pexels-photo-5712576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "bls.gov",
+      "hartfordfunds.com",
+      "spglobal.com",
+      "schwabassetmanagement.com",
+      "investor.vanguard.com",
+      "irs.gov"
+    ],
+    "posted_iso": "2026-11-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
