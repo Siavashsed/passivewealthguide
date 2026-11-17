@@ -587,5 +587,26 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Covered Call ETFs Pay 10% Yields, and You Pay for Every Point",
+    "slug": "covered-call-etfs-yield-tradeoffs",
+    "meta_description": "Covered call ETFs like QYLD and JEPI pay big monthly yields. Here's what you give up for that income, and who should own them.",
+    "date": "November 17, 2026",
+    "date_iso": "2026-11-17",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/6771432/pexels-photo-6771432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "globalxetfs.com",
+      "invesco.com",
+      "am.jpmorgan.com",
+      "cboe.com",
+      "irs.gov",
+      "investor.gov"
+    ],
+    "posted_iso": "2026-11-17",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
