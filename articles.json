@@ -608,5 +608,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Where I'm Parking Cash in 2027, and Why CDs Mostly Lost",
+    "slug": "treasury-bills-cds-money-market-2027",
+    "meta_description": "Treasury bills vs CDs vs money market funds for 2027: why a Treasury money market fund is the default, when T-bills win, and when a CD still makes sense.",
+    "date": "November 18, 2026",
+    "date_iso": "2026-11-18",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/40222119/pexels-photo-40222119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "ici.org",
+      "treasurydirect.gov",
+      "fdic.gov"
+    ],
+    "posted_iso": "2026-11-18",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
