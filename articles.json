@@ -627,5 +627,25 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Passive Income Number Starts With Last Year's Bank Statements",
+    "slug": "passive-income-number-financial-independence",
+    "meta_description": "Calculate your passive income number for financial independence from real spending, honest withdrawal rates and the income that won't stop.",
+    "date": "November 19, 2026",
+    "date_iso": "2026-11-19",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/6964357/pexels-photo-6964357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "bls.gov",
+      "financialplanningassociation.org",
+      "aaii.com",
+      "morningstar.com",
+      "ssa.gov"
+    ],
+    "posted_iso": "2026-11-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
