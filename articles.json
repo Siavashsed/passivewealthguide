@@ -647,5 +647,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Real Estate Crowdfunding Works With $500, But Not the Way Ads Say",
+    "slug": "real-estate-crowdfunding-under-1000",
+    "meta_description": "You can start real estate crowdfunding with under $1,000, sometimes with $10. Here's what it costs, what can go wrong, and how I'd split the money.",
+    "date": "November 20, 2026",
+    "date_iso": "2026-11-20",
+    "author": "Tanya Kumar",
+    "image": "https://images.pexels.com/photos/29947889/pexels-photo-29947889.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "sec.gov",
+      "fundrise.com",
+      "finra.org"
+    ],
+    "posted_iso": "2026-11-20",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
