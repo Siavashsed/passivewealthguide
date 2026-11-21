@@ -665,5 +665,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Roth IRA Pays You Tax-Free, but Only If You Wait",
+    "slug": "roth-ira-passive-income-engine",
+    "meta_description": "A Roth IRA can pay you tax-free income for life, but only if you build it right. Real numbers, the rules that bite, and the one mistake to skip.",
+    "date": "November 21, 2026",
+    "date_iso": "2026-11-21",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/1006060/pexels-photo-1006060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "irs.gov",
+      "morningstar.com"
+    ],
+    "posted_iso": "2026-11-21",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
