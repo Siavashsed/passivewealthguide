@@ -682,5 +682,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your First $100 Belongs in One Boring Index Fund",
+    "slug": "start-investing-with-100-dollars",
+    "meta_description": "Starting to invest with $100 is simpler than it looks. Here's the exact order of steps, the one fund type I'd buy, and what the money can become.",
+    "date": "November 22, 2026",
+    "date_iso": "2026-11-22",
+    "author": "Sarah Chen",
+    "image": "https://images.pexels.com/photos/14907311/pexels-photo-14907311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "federalreserve.gov",
+      "spglobal.com",
+      "investor.gov"
+    ],
+    "posted_iso": "2026-11-22",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Week Silicon Valley Bank Failed and Cash Stopped Feeling Safe",
+    "slug": "silicon-valley-bank-collapse-cash-lessons",
+    "meta_description": "Silicon Valley Bank's March 2023 collapse showed that parked cash carries real risk. Here's what it meant for passive income savers and what I changed.",
+    "date": "May 15, 2023",
+    "date_iso": "2023-05-15",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/39659528/pexels-photo-39659528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fdic.gov"
+    ],
+    "posted_iso": "2026-11-22",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
