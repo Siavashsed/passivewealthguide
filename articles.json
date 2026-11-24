@@ -735,5 +735,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The 4% Rule Is a Starting Line, Not a Retirement Plan",
+    "slug": "4-percent-rule-passive-income-retire",
+    "meta_description": "How much passive income do you need to retire? The 4% rule explained with real math, its weak spots, and what I'd change before trusting it.",
+    "date": "November 24, 2026",
+    "date_iso": "2026-11-24",
+    "author": "Lucia Mendes",
+    "image": "https://images.pexels.com/photos/16783674/pexels-photo-16783674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "aaii.com",
+      "financialplanningassociation.org",
+      "ssa.gov",
+      "morningstar.com"
+    ],
+    "posted_iso": "2026-11-24",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
