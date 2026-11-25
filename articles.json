@@ -754,5 +754,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "A Three-Fund Portfolio Costs Less Than Your Streaming Bill",
+    "slug": "three-fund-portfolio-low-fees",
+    "meta_description": "Build a three-fund portfolio with fees near 0.04% and about one hour of upkeep a year. Here are the exact funds, splits, and rebalancing rules I use.",
+    "date": "November 25, 2026",
+    "date_iso": "2026-11-25",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/6052793/pexels-photo-6052793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "bogleheads.org",
+      "spglobal.com",
+      "morningstar.com"
+    ],
+    "posted_iso": "2026-11-25",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
