@@ -809,5 +809,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "I Owned Both. Here's What a $75,000 Check Really Buys in REITs and Rentals",
+    "slug": "reits-vs-rental-real-numbers",
+    "meta_description": "REITs vs rental property with real numbers: a $75,000 down payment, honest cash flow math, taxes, and the hours nobody counts. Here's where I landed.",
+    "date": "November 28, 2026",
+    "date_iso": "2026-11-28",
+    "author": "Ryan Mitchell",
+    "image": "https://images.pexels.com/photos/5466806/pexels-photo-5466806.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "reit.com",
+      "irs.gov",
+      "investor.gov"
+    ],
+    "posted_iso": "2026-11-28",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
